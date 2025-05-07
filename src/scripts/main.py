@@ -288,6 +288,27 @@ def download_trainer_gif(trainer_name: str, dest_dir: str = "./src/assets/gifs")
         print(f"[ERRO] Falha ao baixar GIF de '{trainer_name}': {e}")
         return None
 
+def download_encounter_location_image(url: str, dest_dir: str = "./src/assets/images/encounters") -> str | None:
+    # https://www.pokemythology.net/conteudo/imgs/screen_hgss/dojo02.png
+    cleaned_name = url.split("/")[-1].split(".")[0]
+    os.makedirs(dest_dir, exist_ok=True)
+
+    image_filename = f"{cleaned_name}.png"
+    image_path = os.path.join(dest_dir, image_filename)
+
+    try:
+        response = requests.get(url, timeout=10)
+        if response.status_code == 200:
+            with open(image_path, "wb") as f:
+                f.write(response.content)
+            return image_path
+        else:
+            print(f"[AVISO] PNG não encontrado para '{cleaned_name}' (HTTP {response.status_code})")
+            return None
+    except requests.RequestException as e:
+        print(f"[ERRO] Falha ao baixar PNG de '{cleaned_name}': {e}")
+        return None
+
 def build_trainer_json(trainer_name,
                        trainer_picture,
                        encounter_location_img,
@@ -319,6 +340,8 @@ def build_trainer_json(trainer_name,
     day, time = parse_encounter_when(encounter_when_raw)
 
     trainer_gif_local_path = download_trainer_gif(trainer_name)
+    encounter_location_img_local_path = download_encounter_location_image(encounter_location_img)
+
 
     return {
         "trainer_name": trainer_name.strip(),
@@ -326,6 +349,7 @@ def build_trainer_json(trainer_name,
         "trainer_gif": f"https://www.pokemythology.net/conteudo/detonados/hgss/{trainer_name}HGSS.gif",
         "trainer_gif_local_path": trainer_gif_local_path,
         "encounter_location_img": encounter_location_img.strip() if encounter_location_img else None,
+        "encounter_location_img_local_path": encounter_location_img_local_path,
         "encounter_location": encounter_location.strip(),
         "encounter_day": day,
         "encounter_time": time,
