@@ -265,10 +265,8 @@ def parse_badges(url: str):
     return badges
 
 def download_trainer_gif(trainer_name: str, dest_dir: str = "./src/assets/gifs") -> str | None:
-    """Faz download do GIF do treinador, sanitizando o nome para a URL."""
-    # Limpa espaços nas bordas
+
     cleaned_name = trainer_name.strip()
-    # Remove tudo que não for letra ou número (inclui espaços, pontos, acentos etc.)
     sanitized = re.sub(r'[^A-Za-z0-9]', '', cleaned_name)
 
     url = f"https://www.pokemythology.net/conteudo/detonados/hgss/{sanitized}HGSS.gif"
@@ -320,7 +318,6 @@ def build_trainer_json(trainer_name,
 
     day, time = parse_encounter_when(encounter_when_raw)
 
-    trainer_gif_url = f"https://www.pokemythology.net/conteudo/detonados/hgss/{trainer_name}HGSS.gif"
     trainer_gif_local_path = download_trainer_gif(trainer_name)
 
     return {
