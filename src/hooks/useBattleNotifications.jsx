@@ -45,13 +45,18 @@ function useBattleNotifications() {
     const nowTotal = hours * 60 + minutes;
 
     return trainer_data.filter((trainer) => {
-      if (!trainer.encounter_day) return false;
-      const matchesDay =
-        trainer.encounter_day.toLowerCase() === day.toLowerCase();
-      if (!matchesDay) return false;
+      if (!trainer.encounter_day || !trainer.encounter_time) return false;
 
+      const rawDay = trainer.encounter_day.toLowerCase().trim();
       const rawTime = trainer.encounter_time.toLowerCase().trim();
-      if (rawTime === 'dia todo') return true;
+
+      if (rawDay !== 'todos os dias' && rawDay !== day.toLowerCase()) {
+        return false;
+      }
+
+      if (rawTime === 'dia todo') {
+        return true;
+      }
 
       const parts = rawTime.split(/às/i).map((p) => p.trim());
       if (parts.length === 2) {
