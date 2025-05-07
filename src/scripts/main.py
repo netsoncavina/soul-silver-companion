@@ -6,10 +6,11 @@ import json
 import re
 from slugify import slugify
 
-
 POKEMON_EXP_URL = "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_experience_type"
 POKEMON_EXP_OUTPUT_FILE = "pokemon_exp_type.json"
 TRAINER_INFO_URL = "https://www.pokemythology.net/detonados/detonado-heartgold-soulsilver/"
+BADGES_URL       = "https://bulbapedia.bulbagarden.net/wiki/Badge"
+GYM_LEADERS_URL  = "https://pokemondb.net/heartgold-soulsilver/gymleaders-elitefour"
 
 def build_pokemon_json(pokemon_dex_num,
                       pokemon_img_POKEMON_EXP_URL,
@@ -84,12 +85,11 @@ def fetch_trainer_data():
         response = requests.get(TRAINER_INFO_URL, timeout=10)
         response.raise_for_status()
     except requests.RequestException as e:
-        print(f"Error fetching page: {e}")
-        return
+        print(f"Error fetching trainer info page: {e}")
+        return []
 
     soup = BeautifulSoup(response.text, "html.parser")
 
-    # 1) buscar dias/horários de batalha
     trainer_battle_data = fetch_trainer_battle_days(soup, response.text)
     battle_map = {}
     for entry in trainer_battle_data:
@@ -98,20 +98,25 @@ def fetch_trainer_data():
             'time': entry['time']
         })
 
-    # 2) buscar e parsear os times de first_match/rematch
     try:
-        resp2 = requests.get('https://pokemondb.net/heartgold-soulsilver/gymleaders-elitefour', timeout=10)
+        resp2 = requests.get(GYM_LEADERS_URL, timeout=10)
         resp2.raise_for_status()
         gym_html = resp2.text
     except requests.RequestException as e:
-        print(f"Error fetching gym rematch page: {e}")
+        print(f"Error fetching gym leaders page: {e}")
         gym_html = ""
     gym_data = parse_gyms(gym_html)
+
+    badge_list = parse_badges(BADGES_URL)
+    badge_map = {
+        slugify(item['gym_leader']): item['badge_image']
+        for item in badge_list
+    }
 
     trainer_table = soup.find("table", id="table17")
     if not trainer_table:
         print("No trainer table found on the page.")
-        return
+        return []
     rows = trainer_table.find_all("tr")
 
     trainer_list = []
@@ -144,6 +149,8 @@ def fetch_trainer_data():
         teams = gym_data.get(slug, {})
         base['first_match_team'] = teams.get('first_match_team', [])
         base['rematch_team']     = teams.get('rematch_team', [])
+
+        base['badge_image'] = badge_map.get(slug)
 
         base['battle_schedule'] = battle_map.get(trainer_name, [])
         trainer_list.append(base)
@@ -184,14 +191,11 @@ def parse_gyms(html):
     gyms = {}
 
     for h2 in soup.find_all('h2', id=re.compile(r'gym-\d+')):
-        # pega os dois blocos correspondentes
         blocs = h2.find_next_siblings('div', class_='infocard-list-trainer-pkmn', limit=2)
         if len(blocs) < 2:
             continue
 
-        # 1) extrai o nome do Líder no primeiro bloco
         leader_name = blocs[0].find('span', class_='ent-name').get_text(strip=True)
-        # opcional: slugify para keys consistentes (e.g. "Falkner" → "falkner")
         key = slugify(leader_name)
 
         gyms[key] = {
@@ -200,7 +204,6 @@ def parse_gyms(html):
             'rematch_team': []
         }
 
-        # 2) percorre os dois blocos para popular first_match e rematch
         for idx, bloc in enumerate(blocs):
             team_key = 'first_match_team' if idx == 0 else 'rematch_team'
             for card in bloc.find_all('div', class_='infocard trainer-pkmn'):
@@ -219,6 +222,40 @@ def parse_gyms(html):
                 })
     return gyms
 
+
+def parse_badges(url: str):
+    try:
+        resp = requests.get(url, timeout=10)
+        resp.raise_for_status()
+    except requests.RequestException as e:
+        print(f"Erro ao buscar página de badges: {e}")
+        return []
+
+    soup = BeautifulSoup(resp.text, 'html.parser')
+    badges = []
+
+    for span in soup.find_all('span', id=re.compile(r'.+_Badge')):
+        tbl = span.find_next('table')
+        if not tbl:
+            continue
+
+        img = tbl.find('img')
+        badge_image = img['src'] if img else None
+
+        giver_span = tbl.find('span', string=lambda t: t and t.strip() == 'Giver')
+        if giver_span:
+            a = giver_span.find_next('a')
+            gym_leader = a.get_text(strip=True) if a else None
+        else:
+            gym_leader = None
+
+        if gym_leader and badge_image:
+            badges.append({
+                'gym_leader': gym_leader,
+                'badge_image': badge_image
+            })
+
+    return badges
 
 def build_trainer_json(trainer_name,
                        trainer_picture,
@@ -278,6 +315,6 @@ def initialize_trainer_data():
         print("No trainer data found.")
 
 if __name__ == "__main__":
-    # initialize_pokemon_data()
+    initialize_pokemon_data()
     initialize_trainer_data()
     print("All data has been fetched and saved.")

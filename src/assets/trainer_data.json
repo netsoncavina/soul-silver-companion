@@ -92,6 +92,7 @@
                 "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/pidgeot.png"
             }
         ],
+        "badge_image": "https://archives.bulbagarden.net/media/upload/thumb/4/4a/Zephyr_Badge.png/50px-Zephyr_Badge.png",
         "battle_schedule": [
             {
                 "day": "Sábado",
@@ -200,6 +201,7 @@
                 "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/scizor.png"
             }
         ],
+        "badge_image": "https://archives.bulbagarden.net/media/upload/thumb/0/08/Hive_Badge.png/50px-Hive_Badge.png",
         "battle_schedule": [
             {
                 "day": "Quinta",
@@ -294,6 +296,7 @@
                 "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/miltank.png"
             }
         ],
+        "badge_image": "https://archives.bulbagarden.net/media/upload/thumb/a/a7/Plain_Badge.png/50px-Plain_Badge.png",
         "battle_schedule": [
             {
                 "day": "Sábado",
@@ -412,6 +415,7 @@
                 "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/gengar.png"
             }
         ],
+        "badge_image": "https://archives.bulbagarden.net/media/upload/thumb/4/48/Fog_Badge.png/50px-Fog_Badge.png",
         "battle_schedule": [
             {
                 "day": "Terça",
@@ -508,6 +512,7 @@
                 "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/poliwrath.png"
             }
         ],
+        "badge_image": "https://archives.bulbagarden.net/media/upload/thumb/b/b9/Storm_Badge.png/50px-Storm_Badge.png",
         "battle_schedule": [
             {
                 "day": "Quarta",
@@ -618,6 +623,7 @@
                 "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/steelix.png"
             }
         ],
+        "badge_image": "https://archives.bulbagarden.net/media/upload/thumb/7/7b/Mineral_Badge.png/50px-Mineral_Badge.png",
         "battle_schedule": [
             {
                 "day": "Quarta",
@@ -726,6 +732,7 @@
                 "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/mamoswine.png"
             }
         ],
+        "badge_image": "https://archives.bulbagarden.net/media/upload/thumb/b/b2/Harmony_Badge.png/50px-Harmony_Badge.png",
         "battle_schedule": [
             {
                 "day": "Segunda",
@@ -843,6 +850,7 @@
                 "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/dragonite.png"
             }
         ],
+        "badge_image": "https://archives.bulbagarden.net/media/upload/thumb/5/58/Rising_Badge.png/50px-Rising_Badge.png",
         "battle_schedule": [
             {
                 "day": "Sexta",
@@ -972,6 +980,7 @@
                 "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/onix.png"
             }
         ],
+        "badge_image": "https://archives.bulbagarden.net/media/upload/thumb/d/dd/Boulder_Badge.png/50px-Boulder_Badge.png",
         "battle_schedule": [
             {
                 "day": "Sábado",
@@ -1089,6 +1098,7 @@
                 "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/starmie.png"
             }
         ],
+        "badge_image": "https://archives.bulbagarden.net/media/upload/thumb/9/9c/Cascade_Badge.png/50px-Cascade_Badge.png",
         "battle_schedule": [
             {
                 "day": "Quarta",
@@ -1210,6 +1220,7 @@
                 "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/raichu.png"
             }
         ],
+        "badge_image": "https://archives.bulbagarden.net/media/upload/thumb/a/a6/Thunder_Badge.png/50px-Thunder_Badge.png",
         "battle_schedule": [
             {
                 "day": "Sexta",
@@ -1326,6 +1337,7 @@
                 "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/tangrowth.png"
             }
         ],
+        "badge_image": "https://archives.bulbagarden.net/media/upload/thumb/8/8b/Tranquility_Badge.png/50px-Tranquility_Badge.png",
         "battle_schedule": [
             {
                 "day": "Domingo",
@@ -1454,6 +1466,7 @@
                 "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/venomoth.png"
             }
         ],
+        "badge_image": null,
         "battle_schedule": [
             {
                 "day": "Segunda",
@@ -1559,6 +1572,7 @@
                 "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/alakazam.png"
             }
         ],
+        "badge_image": "https://archives.bulbagarden.net/media/upload/thumb/6/6b/Marsh_Badge.png/50px-Marsh_Badge.png",
         "battle_schedule": [
             {
                 "day": "Domingo",
@@ -1664,6 +1678,7 @@
                 "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/magmortar.png"
             }
         ],
+        "badge_image": "https://archives.bulbagarden.net/media/upload/thumb/1/12/Volcano_Badge.png/50px-Volcano_Badge.png",
         "battle_schedule": [
             {
                 "day": "Terça",
@@ -1800,6 +1815,7 @@
                 "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/pidgeot.png"
             }
         ],
+        "badge_image": null,
         "battle_schedule": [
             {
                 "day": "Domingo",
