@@ -11,7 +11,6 @@ import useBattleNotifications from '../hooks/useBattleNotifications';
 export default function NotificationMenu({ openTrainerDialog }) {
   const { notifications, updateNotifications, removeNotification } =
     useBattleNotifications();
-
   const [anchorEl, setAnchorEl] = React.useState(null);
   const open = Boolean(anchorEl);
 
@@ -24,10 +23,11 @@ export default function NotificationMenu({ openTrainerDialog }) {
     setAnchorEl(null);
   };
 
-  const handleNotificationClick = (trainer) => {
-    if (trainer) {
-      console.log('Trainer:', trainer);
-      openTrainerDialog(trainer);
+  const handleNotificationClick = (notif) => {
+    if (notif.type === 'battle') {
+      openTrainerDialog(notif.trainer);
+    } else if (notif.type === 'encounter') {
+      window.open(notif.trainer.encounter_location_img, '_blank');
     }
     handleClose();
   };
@@ -58,32 +58,28 @@ export default function NotificationMenu({ openTrainerDialog }) {
         transformOrigin={{ vertical: 'top', horizontal: 'right' }}
         MenuListProps={{ 'aria-labelledby': 'notification-button' }}
       >
-        {notifications.length > 0 ? (
-          notifications.map((notification, i) => (
-            <MenuItem
-              key={i}
-              onClick={() => handleNotificationClick(notification.trainer)}
-              sx={{
-                display: 'flex',
-                justifyContent: 'space-between',
-                alignItems: 'center',
+        {notifications.map((notification, i) => (
+          <MenuItem
+            key={i}
+            onClick={() => handleNotificationClick(notification)}
+            sx={{
+              display: 'flex',
+              justifyContent: 'space-between',
+              alignItems: 'center',
+            }}
+          >
+            <ListItemText>{notification.message}</ListItemText>
+            <IconButton
+              size='small'
+              onClick={(e) => {
+                e.stopPropagation();
+                removeNotification(i);
               }}
             >
-              <ListItemText>{notification.message}</ListItemText>
-              <IconButton
-                size='small'
-                onClick={(e) => {
-                  e.stopPropagation();
-                  removeNotification(i);
-                }}
-              >
-                <CloseIcon fontSize='small' />
-              </IconButton>
-            </MenuItem>
-          ))
-        ) : (
-          <MenuItem onClick={handleClose}>Nenhuma notificação</MenuItem>
-        )}
+              <CloseIcon fontSize='small' />
+            </IconButton>
+          </MenuItem>
+        ))}
       </Menu>
     </>
   );
