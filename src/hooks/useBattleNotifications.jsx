@@ -29,23 +29,35 @@ function useBattleNotifications() {
 
   const checkIfAvailableBattles = useCallback(() => {
     const { day, timeLabel } = getDayAndTime();
-    console.log('day', day);
-    console.log('timeLabel', timeLabel);
-    return trainer_data.filter((trainer) =>
-      (trainer.battle_schedule || []).some(
-        (s) =>
-          s.day === day.split('-')[0] &&
-          s.time.toLowerCase() === timeLabel.toLowerCase()
-      )
+    const alreadyMetTrainers = fetchAlreadyMetTrainers();
+    return trainer_data.filter(
+      (trainer) =>
+        (trainer.battle_schedule || []).some(
+          (s) =>
+            s.day === day.split('-')[0] &&
+            s.time.toLowerCase() === timeLabel.toLowerCase()
+        ) && alreadyMetTrainers.includes(trainer.trainer_name)
     );
   }, [getDayAndTime]);
+
+  const fetchAlreadyMetTrainers = () => {
+    const item = window.localStorage.getItem('checkedTrainers');
+    if (item) {
+      return JSON.parse(item);
+    } else {
+      return [];
+    }
+  };
 
   const checkIfAvailableEncounters = useCallback(() => {
     const { day, hours, minutes } = getDayAndTime();
     const nowTotal = hours * 60 + minutes;
+    const alreadyMetTrainers = fetchAlreadyMetTrainers();
 
     return trainer_data.filter((trainer) => {
       if (!trainer.encounter_day || !trainer.encounter_time) return false;
+
+      if (alreadyMetTrainers.includes(trainer.trainer_name)) return false;
 
       const rawDay = trainer.encounter_day.toLowerCase().trim();
       const rawTime = trainer.encounter_time.toLowerCase().trim();
