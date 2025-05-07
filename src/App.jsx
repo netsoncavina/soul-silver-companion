@@ -6,7 +6,7 @@ import Pokemons from './pages/Pokemons';
 function App() {
   return (
     <Routes>
-      <Route path='/' element={<Home />} />
+      <Route path='/soul-silver-companion' element={<Home />} />
       <Route path='/trainers' element={<Trainers />} />
       <Route path='/pokemons' element={<Pokemons />} />
     </Routes>
