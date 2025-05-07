@@ -5,6 +5,7 @@ import requests
 import json
 import re
 from slugify import slugify
+import os
 
 POKEMON_EXP_URL = "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_experience_type"
 POKEMON_EXP_OUTPUT_FILE = "pokemon_exp_type.json"
@@ -260,6 +261,32 @@ def parse_badges(url: str):
 
     return badges
 
+def download_trainer_gif(trainer_name: str, dest_dir: str = "./src/assets/gifs") -> str | None:
+    """Faz download do GIF do treinador, sanitizando o nome para a URL."""
+    # Limpa espaços nas bordas
+    cleaned_name = trainer_name.strip()
+    # Remove tudo que não for letra ou número (inclui espaços, pontos, acentos etc.)
+    sanitized = re.sub(r'[^A-Za-z0-9]', '', cleaned_name)
+
+    url = f"https://www.pokemythology.net/conteudo/detonados/hgss/{sanitized}HGSS.gif"
+    os.makedirs(dest_dir, exist_ok=True)
+
+    gif_filename = f"{sanitized}HGSS.gif"
+    gif_path = os.path.join(dest_dir, gif_filename)
+
+    try:
+        response = requests.get(url, timeout=10)
+        if response.status_code == 200:
+            with open(gif_path, "wb") as f:
+                f.write(response.content)
+            return gif_path
+        else:
+            print(f"[AVISO] GIF não encontrado para '{trainer_name}' (HTTP {response.status_code})")
+            return None
+    except requests.RequestException as e:
+        print(f"[ERRO] Falha ao baixar GIF de '{trainer_name}': {e}")
+        return None
+
 def build_trainer_json(trainer_name,
                        trainer_picture,
                        encounter_location_img,
@@ -290,10 +317,14 @@ def build_trainer_json(trainer_name,
 
     day, time = parse_encounter_when(encounter_when_raw)
 
+    trainer_gif_url = f"https://www.pokemythology.net/conteudo/detonados/hgss/{trainer_name}HGSS.gif"
+    trainer_gif_local_path = download_trainer_gif(trainer_name)
+
     return {
         "trainer_name": trainer_name.strip(),
         "trainer_picture": trainer_picture.strip() if trainer_picture else None,
         "trainer_gif": f"https://www.pokemythology.net/conteudo/detonados/hgss/{trainer_name}HGSS.gif",
+        "trainer_gif_local_path": trainer_gif_local_path,
         "encounter_location_img": encounter_location_img.strip() if encounter_location_img else None,
         "encounter_location": encounter_location.strip(),
         "encounter_day": day,
