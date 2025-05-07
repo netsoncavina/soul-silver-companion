@@ -42,7 +42,7 @@ export default function MatchTab({ firstMatchPokemons, rematchPokemons }) {
   };
 
   return (
-    <Box sx={{ width: '100%' }}>
+    <Box sx={{ width: '100%', height: '100%' }}>
       <Box sx={{ borderBottom: 1, borderColor: 'divider' }}>
         <Tabs
           value={value}
@@ -53,17 +53,18 @@ export default function MatchTab({ firstMatchPokemons, rematchPokemons }) {
           <Tab label='Reencontro' {...a11yProps(1)} />
         </Tabs>
       </Box>
-      <CustomTabPanel value={value} index={0}>
-        {firstMatchPokemons?.map((pokemon, index) => (
-          <PokemonCard key={index} pokemon={pokemon} />
-        ))}
-      </CustomTabPanel>
-
-      <CustomTabPanel value={value} index={1}>
-        {rematchPokemons?.map((pokemon, index) => (
-          <PokemonCard key={index} pokemon={pokemon} />
-        ))}
-      </CustomTabPanel>
+      <Box sx={{ overflowY: 'auto', height: 'calc(100% - 48px)' }}>
+        <CustomTabPanel value={value} index={0}>
+          {firstMatchPokemons?.map((pokemon, index) => (
+            <PokemonCard key={index} pokemon={pokemon} />
+          ))}
+        </CustomTabPanel>
+        <CustomTabPanel value={value} index={1}>
+          {rematchPokemons?.map((pokemon, index) => (
+            <PokemonCard key={index} pokemon={pokemon} />
+          ))}
+        </CustomTabPanel>
+      </Box>
     </Box>
   );
 }
