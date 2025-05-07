@@ -6,7 +6,7 @@ import Typography from '@mui/material/Typography';
 import NotificationIcon from './Notification';
 import CustomDrawer from './CustomDrawer';
 
-export default function TopBar({ title }) {
+export default function TopBar({ title, openTrainerDialog }) {
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position='static' sx={{ backgroundColor: '#758AA6' }}>
@@ -22,7 +22,10 @@ export default function TopBar({ title }) {
           >
             {title}
           </Typography>
-          <NotificationIcon notifications={[1, 2, 3, 4, 5, 6]} />
+          <NotificationIcon
+            notifications={[1, 2, 3, 4, 5, 6]}
+            openTrainerDialog={openTrainerDialog}
+          />
         </Toolbar>
       </AppBar>
     </Box>

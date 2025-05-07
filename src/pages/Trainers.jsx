@@ -19,7 +19,7 @@ export default function Trainers() {
   };
   return (
     <>
-      <Topbar title='Treinadores' />
+      <Topbar title='Treinadores' openTrainerDialog={handleOpenDialog} />
       <div
         style={{
           display: 'flex',

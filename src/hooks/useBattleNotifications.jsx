@@ -36,12 +36,19 @@ function useBattleNotifications() {
     const available = checkIfAvailableBattles();
     if (available.length > 0) {
       setNotifications(
-        available.map((t) => `${t.trainer_name} está disponível para batalha!`)
+        available.map((trainer) => ({
+          message: `${trainer.trainer_name} está disponível para batalha!`,
+          trainer,
+        }))
       );
     } else {
-      setNotifications(['Nenhum treinador disponível no momento.']);
+      setNotifications([
+        {
+          message: 'Nenhum treinador disponível no momento.',
+          trainer: null,
+        },
+      ]);
     }
-    setShowNotifications((prev) => !prev);
   }, [checkIfAvailableBattles]);
 
   useEffect(() => {

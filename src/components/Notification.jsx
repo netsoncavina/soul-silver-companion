@@ -8,7 +8,7 @@ import CloseIcon from '@mui/icons-material/Close';
 import { FaBell } from 'react-icons/fa';
 import useBattleNotifications from '../hooks/useBattleNotifications';
 
-export default function NotificationMenu() {
+export default function NotificationMenu({ openTrainerDialog }) {
   const { notifications, updateNotifications, removeNotification } =
     useBattleNotifications();
 
@@ -22,6 +22,14 @@ export default function NotificationMenu() {
 
   const handleClose = () => {
     setAnchorEl(null);
+  };
+
+  const handleNotificationClick = (trainer) => {
+    if (trainer) {
+      console.log('Trainer:', trainer);
+      openTrainerDialog(trainer);
+    }
+    handleClose();
   };
 
   return (
@@ -51,17 +59,17 @@ export default function NotificationMenu() {
         MenuListProps={{ 'aria-labelledby': 'notification-button' }}
       >
         {notifications.length > 0 ? (
-          notifications.map((msg, i) => (
+          notifications.map((notification, i) => (
             <MenuItem
               key={i}
-              onClick={handleClose}
+              onClick={() => handleNotificationClick(notification.trainer)}
               sx={{
                 display: 'flex',
                 justifyContent: 'space-between',
                 alignItems: 'center',
               }}
             >
-              <ListItemText>{msg}</ListItemText>
+              <ListItemText>{notification.message}</ListItemText>
               <IconButton
                 size='small'
                 onClick={(e) => {
