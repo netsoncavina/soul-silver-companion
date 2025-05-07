@@ -17,6 +17,7 @@ export default function NotificationMenu({ openTrainerDialog }) {
   const [menuAnchor, setMenuAnchor] = React.useState(null);
   const [encounterAnchor, setEncounterAnchor] = React.useState(null);
   const [encounterImg, setEncounterImg] = React.useState('');
+  const [encounterLocation, setEncounterLocation] = React.useState('');
 
   const openMenu = Boolean(menuAnchor);
   const openEncounter = Boolean(encounterAnchor);
@@ -36,10 +37,11 @@ export default function NotificationMenu({ openTrainerDialog }) {
       openTrainerDialog(notif.trainer);
       handleMenuClose();
     } else if (notif.type === 'encounter') {
-      // usa o map para pegar a imagem local correta
       const key = notif.trainer.trainer_name;
+      const location = notif.location;
       const localImg = trainerPNGMap[key];
       setEncounterImg(localImg);
+      setEncounterLocation(location);
       setEncounterAnchor(e.currentTarget);
     }
   };
@@ -108,11 +110,15 @@ export default function NotificationMenu({ openTrainerDialog }) {
         PaperProps={{ sx: { p: 1 } }}
       >
         {encounterImg && (
-          <img
-            src={encounterImg}
-            alt='Local de encontro'
-            style={{ maxWidth: 300, maxHeight: 300 }}
-          />
+          <div style={{ textAlign: 'center', padding: 10, width: 300 }}>
+            <h3>Encontro disponível!</h3>
+            <p>{encounterLocation}</p>
+            <img
+              src={encounterImg}
+              alt='Local de encontro'
+              style={{ maxWidth: 300, maxHeight: 300 }}
+            />
+          </div>
         )}
       </Popover>
     </>

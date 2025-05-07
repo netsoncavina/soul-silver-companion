@@ -102,6 +102,7 @@ function useBattleNotifications() {
       notifs.push({
         type: 'encounter',
         message: `Encontro disponível: ${trainer.trainer_name}!`,
+        location: trainer.encounter_location,
         trainer,
       });
     });
