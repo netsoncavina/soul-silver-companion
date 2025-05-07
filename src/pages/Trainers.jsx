@@ -36,11 +36,13 @@ export default function Trainers() {
             onClick={() => handleOpenDialog(trainer)}
           />
         ))}
-        <TrainerDialog
-          openDialog={openDialog}
-          handleCloseDialog={handleCloseDialog}
-          selectedTrainer={selectedTrainer}
-        />
+        {selectedTrainer && (
+          <TrainerDialog
+            openDialog={openDialog}
+            handleCloseDialog={handleCloseDialog}
+            selectedTrainer={selectedTrainer}
+          />
+        )}
       </div>
     </>
   );
