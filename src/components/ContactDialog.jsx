@@ -20,15 +20,27 @@ export default function ContactDialog({
   handleCloseDialog,
   trainers,
 }) {
-  const [checkedTrainers, setCheckedTrainers] = React.useState([]);
+  const [checkedTrainers, setCheckedTrainers] = React.useState(() => {
+    try {
+      const item = window.localStorage.getItem('checkedTrainers');
+      return item ? JSON.parse(item) : [];
+    } catch {
+      return [];
+    }
+  });
 
-  const handleChange = (event) => {
-    const trainerName = event.target.value;
-    const isChecked = event.target.checked;
+  React.useEffect(() => {
+    window.localStorage.setItem(
+      'checkedTrainers',
+      JSON.stringify(checkedTrainers)
+    );
+  }, [checkedTrainers]);
+
+  const handleChange = (e) => {
+    const name = e.target.value;
+    const checked = e.target.checked;
     setCheckedTrainers((prev) =>
-      isChecked
-        ? [...prev, trainerName]
-        : prev.filter((name) => name !== trainerName)
+      checked ? [...prev, name] : prev.filter((n) => n !== name)
     );
   };
 
@@ -43,7 +55,6 @@ export default function ContactDialog({
     >
       <DialogTitle>Treinadores que possui o contato</DialogTitle>
       <DialogContent dividers sx={{ p: 2 }}>
-        {/* Container flex para todas as fotos em row */}
         <Box
           sx={{
             display: 'flex',
@@ -53,7 +64,7 @@ export default function ContactDialog({
             justifyContent: 'center',
           }}
         >
-          {trainers.map((trainer, idx) => (
+          {trainers.map((t, idx) => (
             <Box
               key={idx}
               sx={{
@@ -64,8 +75,8 @@ export default function ContactDialog({
               }}
             >
               <Checkbox
-                checked={checkedTrainers.includes(trainer.trainer_name)}
-                value={trainer.trainer_name}
+                checked={checkedTrainers.includes(t.trainer_name)}
+                value={t.trainer_name}
                 onChange={handleChange}
                 inputProps={{ 'aria-label': 'controlled' }}
                 disableRipple
@@ -74,13 +85,9 @@ export default function ContactDialog({
               />
               <CardMedia
                 component='img'
-                image={trainer.trainer_picture}
-                title={trainer.trainer_name}
-                sx={{
-                  width: '100%',
-                  height: 140,
-                  objectFit: 'contain',
-                }}
+                image={t.trainer_picture}
+                title={t.trainer_name}
+                sx={{ width: '100%', height: 140, objectFit: 'contain' }}
               />
             </Box>
           ))}
