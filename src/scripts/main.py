@@ -3,6 +3,9 @@ from pathlib import Path
 from urllib.parse import unquote
 import requests
 import json
+import re
+from slugify import slugify
+
 
 POKEMON_EXP_URL = "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_experience_type"
 POKEMON_EXP_OUTPUT_FILE = "pokemon_exp_type.json"
@@ -75,6 +78,7 @@ def initialize_pokemon_data():
     else:
         print("No Pokémon data found.")
 
+
 def fetch_trainer_data():
     try:
         response = requests.get(TRAINER_INFO_URL, timeout=10)
@@ -85,6 +89,7 @@ def fetch_trainer_data():
 
     soup = BeautifulSoup(response.text, "html.parser")
 
+    # 1) buscar dias/horários de batalha
     trainer_battle_data = fetch_trainer_battle_days(soup, response.text)
     battle_map = {}
     for entry in trainer_battle_data:
@@ -92,6 +97,16 @@ def fetch_trainer_data():
             'day': entry['day'],
             'time': entry['time']
         })
+
+    # 2) buscar e parsear os times de first_match/rematch
+    try:
+        resp2 = requests.get('https://pokemondb.net/heartgold-soulsilver/gymleaders-elitefour', timeout=10)
+        resp2.raise_for_status()
+        gym_html = resp2.text
+    except requests.RequestException as e:
+        print(f"Error fetching gym rematch page: {e}")
+        gym_html = ""
+    gym_data = parse_gyms(gym_html)
 
     trainer_table = soup.find("table", id="table17")
     if not trainer_table:
@@ -111,7 +126,7 @@ def fetch_trainer_data():
             if cols[0].find("img") else None
         )
         lines = cols[1].get_text(separator="\n", strip=True).splitlines()
-        trainer_name     = lines[0].split("Líder:", 1)[1].strip()
+        trainer_name       = lines[0].split("Líder:", 1)[1].strip()
         encounter_location = lines[1].split("Lugar:",   1)[1].strip()
         encounter_when     = lines[2].split("Quando:",  1)[1].strip()
         requirements       = lines[3].split("Requer:",   1)[1].strip()
@@ -124,6 +139,12 @@ def fetch_trainer_data():
             encounter_when_raw=encounter_when,
             requirements=requirements
         )
+
+        slug  = slugify(trainer_name)
+        teams = gym_data.get(slug, {})
+        base['first_match_team'] = teams.get('first_match_team', [])
+        base['rematch_team']     = teams.get('rematch_team', [])
+
         base['battle_schedule'] = battle_map.get(trainer_name, [])
         trainer_list.append(base)
 
@@ -157,6 +178,46 @@ def fetch_trainer_battle_days(soup, html):
                 "time": time_of_day
             })
     return schedule
+
+def parse_gyms(html):
+    soup = BeautifulSoup(html, 'html.parser')
+    gyms = {}
+
+    for h2 in soup.find_all('h2', id=re.compile(r'gym-\d+')):
+        # pega os dois blocos correspondentes
+        blocs = h2.find_next_siblings('div', class_='infocard-list-trainer-pkmn', limit=2)
+        if len(blocs) < 2:
+            continue
+
+        # 1) extrai o nome do Líder no primeiro bloco
+        leader_name = blocs[0].find('span', class_='ent-name').get_text(strip=True)
+        # opcional: slugify para keys consistentes (e.g. "Falkner" → "falkner")
+        key = slugify(leader_name)
+
+        gyms[key] = {
+            'leader_name': leader_name,
+            'first_match_team': [],
+            'rematch_team': []
+        }
+
+        # 2) percorre os dois blocos para popular first_match e rematch
+        for idx, bloc in enumerate(blocs):
+            team_key = 'first_match_team' if idx == 0 else 'rematch_team'
+            for card in bloc.find_all('div', class_='infocard trainer-pkmn'):
+                pokedexNumber = card.find('small').get_text(strip=True)
+                name = card.find('a', class_='ent-name').get_text(strip=True)
+                level = card.find_all('small')[1].get_text(strip=True)
+                types = [t.get_text(strip=True) for t in card.select('small a.itype')]
+                sprite = card.find('img', class_=re.compile(r'img-sprite')).get('src')
+
+                gyms[key][team_key].append({
+                    'pokedexNumber': pokedexNumber,
+                    'name': name,
+                    'level': level,
+                    'types': types,
+                    'sprite_url': sprite
+                })
+    return gyms
 
 
 def build_trainer_json(trainer_name,
@@ -197,9 +258,8 @@ def build_trainer_json(trainer_name,
         "encounter_location": encounter_location.strip(),
         "encounter_day": day,
         "encounter_time": time,
-        "requirements": requirements.strip()
+        "requirements": requirements.strip(),
     }
-
 
 def save_trainer_data_to_json(trainer_list, filename):
     target_path = Path(__file__).parent / "../assets" / filename
@@ -218,6 +278,6 @@ def initialize_trainer_data():
         print("No trainer data found.")
 
 if __name__ == "__main__":
-    initialize_pokemon_data()
+    # initialize_pokemon_data()
     initialize_trainer_data()
     print("All data has been fetched and saved.")

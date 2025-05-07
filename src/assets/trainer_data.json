@@ -8,6 +8,90 @@
         "encounter_day": "segunda-feira",
         "encounter_time": "dia todo",
         "requirements": "Ter derrotado Janine em seu ginásio em Fuchsia",
+        "first_match_team": [
+            {
+                "pokedexNumber": "#016",
+                "name": "Pidgey",
+                "level": "Level 9",
+                "types": [
+                    "Normal",
+                    "Flying"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/pidgey.png"
+            },
+            {
+                "pokedexNumber": "#017",
+                "name": "Pidgeotto",
+                "level": "Level 13",
+                "types": [
+                    "Normal",
+                    "Flying"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/pidgeotto.png"
+            }
+        ],
+        "rematch_team": [
+            {
+                "pokedexNumber": "#398",
+                "name": "Staraptor",
+                "level": "Level 50",
+                "types": [
+                    "Normal",
+                    "Flying"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/staraptor.png"
+            },
+            {
+                "pokedexNumber": "#164",
+                "name": "Noctowl",
+                "level": "Level 52",
+                "types": [
+                    "Normal",
+                    "Flying"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/noctowl.png"
+            },
+            {
+                "pokedexNumber": "#277",
+                "name": "Swellow",
+                "level": "Level 52",
+                "types": [
+                    "Normal",
+                    "Flying"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/swellow.png"
+            },
+            {
+                "pokedexNumber": "#430",
+                "name": "Honchkrow",
+                "level": "Level 54",
+                "types": [
+                    "Dark",
+                    "Flying"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/honchkrow.png"
+            },
+            {
+                "pokedexNumber": "#279",
+                "name": "Pelipper",
+                "level": "Level 48",
+                "types": [
+                    "Water",
+                    "Flying"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/pelipper.png"
+            },
+            {
+                "pokedexNumber": "#018",
+                "name": "Pidgeot",
+                "level": "Level 56",
+                "types": [
+                    "Normal",
+                    "Flying"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/pidgeot.png"
+            }
+        ],
         "battle_schedule": [
             {
                 "day": "Sábado",
@@ -24,6 +108,98 @@
         "encounter_day": "quinta-feira",
         "encounter_time": "dia todo",
         "requirements": "Ter vencido a Elite 4 pela primeira vez",
+        "first_match_team": [
+            {
+                "pokedexNumber": "#011",
+                "name": "Metapod",
+                "level": "Level 15",
+                "types": [
+                    "Bug"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/metapod.png"
+            },
+            {
+                "pokedexNumber": "#014",
+                "name": "Kakuna",
+                "level": "Level 15",
+                "types": [
+                    "Bug",
+                    "Poison"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/kakuna.png"
+            },
+            {
+                "pokedexNumber": "#123",
+                "name": "Scyther",
+                "level": "Level 17",
+                "types": [
+                    "Bug",
+                    "Flying"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/scyther.png"
+            }
+        ],
+        "rematch_team": [
+            {
+                "pokedexNumber": "#292",
+                "name": "Shedinja",
+                "level": "Level 48",
+                "types": [
+                    "Bug",
+                    "Ghost"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/shedinja.png"
+            },
+            {
+                "pokedexNumber": "#416",
+                "name": "Vespiquen",
+                "level": "Level 52",
+                "types": [
+                    "Bug",
+                    "Flying"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/vespiquen.png"
+            },
+            {
+                "pokedexNumber": "#127",
+                "name": "Pinsir",
+                "level": "Level 55",
+                "types": [
+                    "Bug"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/pinsir.png"
+            },
+            {
+                "pokedexNumber": "#214",
+                "name": "Heracross",
+                "level": "Level 54",
+                "types": [
+                    "Bug",
+                    "Fighting"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/heracross.png"
+            },
+            {
+                "pokedexNumber": "#469",
+                "name": "Yanmega",
+                "level": "Level 52",
+                "types": [
+                    "Bug",
+                    "Flying"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/yanmega.png"
+            },
+            {
+                "pokedexNumber": "#212",
+                "name": "Scizor",
+                "level": "Level 56",
+                "types": [
+                    "Bug",
+                    "Steel"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/scizor.png"
+            }
+        ],
         "battle_schedule": [
             {
                 "day": "Quinta",
@@ -40,6 +216,84 @@
         "encounter_day": "todos os dias",
         "encounter_time": "12:00 às 16:00",
         "requirements": "Ter vencido a Elite 4 pela primeira vez",
+        "first_match_team": [
+            {
+                "pokedexNumber": "#035",
+                "name": "Clefairy",
+                "level": "Level 17",
+                "types": [
+                    "Fairy"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/clefairy.png"
+            },
+            {
+                "pokedexNumber": "#241",
+                "name": "Miltank",
+                "level": "Level 19",
+                "types": [
+                    "Normal"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/miltank.png"
+            }
+        ],
+        "rematch_team": [
+            {
+                "pokedexNumber": "#400",
+                "name": "Bibarel",
+                "level": "Level 54",
+                "types": [
+                    "Normal",
+                    "Water"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/bibarel.png"
+            },
+            {
+                "pokedexNumber": "#463",
+                "name": "Lickilicky",
+                "level": "Level 50",
+                "types": [
+                    "Normal"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/lickilicky.png"
+            },
+            {
+                "pokedexNumber": "#036",
+                "name": "Clefable",
+                "level": "Level 52",
+                "types": [
+                    "Fairy"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/clefable.png"
+            },
+            {
+                "pokedexNumber": "#203",
+                "name": "Girafarig",
+                "level": "Level 52",
+                "types": [
+                    "Normal",
+                    "Psychic"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/girafarig.png"
+            },
+            {
+                "pokedexNumber": "#301",
+                "name": "Delcatty",
+                "level": "Level 54",
+                "types": [
+                    "Normal"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/delcatty.png"
+            },
+            {
+                "pokedexNumber": "#241",
+                "name": "Miltank",
+                "level": "Level 58",
+                "types": [
+                    "Normal"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/miltank.png"
+            }
+        ],
         "battle_schedule": [
             {
                 "day": "Sábado",
@@ -56,6 +310,108 @@
         "encounter_day": "de segunda e terça",
         "encounter_time": "o dia todo",
         "requirements": "Ter vencido a Elite 4 pela primeira vez",
+        "first_match_team": [
+            {
+                "pokedexNumber": "#092",
+                "name": "Gastly",
+                "level": "Level 21",
+                "types": [
+                    "Ghost",
+                    "Poison"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/gastly.png"
+            },
+            {
+                "pokedexNumber": "#093",
+                "name": "Haunter",
+                "level": "Level 21",
+                "types": [
+                    "Ghost",
+                    "Poison"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/haunter.png"
+            },
+            {
+                "pokedexNumber": "#093",
+                "name": "Haunter",
+                "level": "Level 23",
+                "types": [
+                    "Ghost",
+                    "Poison"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/haunter.png"
+            },
+            {
+                "pokedexNumber": "#094",
+                "name": "Gengar",
+                "level": "Level 25",
+                "types": [
+                    "Ghost",
+                    "Poison"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/gengar.png"
+            }
+        ],
+        "rematch_team": [
+            {
+                "pokedexNumber": "#426",
+                "name": "Drifblim",
+                "level": "Level 52",
+                "types": [
+                    "Ghost",
+                    "Flying"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/drifblim.png"
+            },
+            {
+                "pokedexNumber": "#477",
+                "name": "Dusknoir",
+                "level": "Level 52",
+                "types": [
+                    "Ghost"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/dusknoir.png"
+            },
+            {
+                "pokedexNumber": "#302",
+                "name": "Sableye",
+                "level": "Level 52",
+                "types": [
+                    "Dark",
+                    "Ghost"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/sableye.png"
+            },
+            {
+                "pokedexNumber": "#429",
+                "name": "Mismagius",
+                "level": "Level 54",
+                "types": [
+                    "Ghost"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/mismagius.png"
+            },
+            {
+                "pokedexNumber": "#094",
+                "name": "Gengar",
+                "level": "Level 57",
+                "types": [
+                    "Ghost",
+                    "Poison"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/gengar.png"
+            },
+            {
+                "pokedexNumber": "#094",
+                "name": "Gengar",
+                "level": "Level 57",
+                "types": [
+                    "Ghost",
+                    "Poison"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/gengar.png"
+            }
+        ],
         "battle_schedule": [
             {
                 "day": "Terça",
@@ -72,6 +428,86 @@
         "encounter_day": "todos os dias",
         "encounter_time": "dia todo",
         "requirements": "Ter vencido a Elite 4 pela primeira vez",
+        "first_match_team": [
+            {
+                "pokedexNumber": "#057",
+                "name": "Primeape",
+                "level": "Level 29",
+                "types": [
+                    "Fighting"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/primeape.png"
+            },
+            {
+                "pokedexNumber": "#062",
+                "name": "Poliwrath",
+                "level": "Level 31",
+                "types": [
+                    "Water",
+                    "Fighting"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/poliwrath.png"
+            }
+        ],
+        "rematch_team": [
+            {
+                "pokedexNumber": "#308",
+                "name": "Medicham",
+                "level": "Level 54",
+                "types": [
+                    "Fighting",
+                    "Psychic"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/medicham.png"
+            },
+            {
+                "pokedexNumber": "#107",
+                "name": "Hitmonchan",
+                "level": "Level 52",
+                "types": [
+                    "Fighting"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/hitmonchan.png"
+            },
+            {
+                "pokedexNumber": "#106",
+                "name": "Hitmonlee",
+                "level": "Level 55",
+                "types": [
+                    "Fighting"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/hitmonlee.png"
+            },
+            {
+                "pokedexNumber": "#286",
+                "name": "Breloom",
+                "level": "Level 54",
+                "types": [
+                    "Grass",
+                    "Fighting"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/breloom.png"
+            },
+            {
+                "pokedexNumber": "#057",
+                "name": "Primeape",
+                "level": "Level 56",
+                "types": [
+                    "Fighting"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/primeape.png"
+            },
+            {
+                "pokedexNumber": "#062",
+                "name": "Poliwrath",
+                "level": "Level 60",
+                "types": [
+                    "Water",
+                    "Fighting"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/poliwrath.png"
+            }
+        ],
         "battle_schedule": [
             {
                 "day": "Quarta",
@@ -88,6 +524,100 @@
         "encounter_day": "todos os dias",
         "encounter_time": "13:00 às 14:00",
         "requirements": "Ter vencido a Elite 4 pela primeira vez",
+        "first_match_team": [
+            {
+                "pokedexNumber": "#081",
+                "name": "Magnemite",
+                "level": "Level 30",
+                "types": [
+                    "Electric",
+                    "Steel"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/magnemite.png"
+            },
+            {
+                "pokedexNumber": "#081",
+                "name": "Magnemite",
+                "level": "Level 30",
+                "types": [
+                    "Electric",
+                    "Steel"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/magnemite.png"
+            },
+            {
+                "pokedexNumber": "#208",
+                "name": "Steelix",
+                "level": "Level 35",
+                "types": [
+                    "Steel",
+                    "Ground"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/steelix.png"
+            }
+        ],
+        "rematch_team": [
+            {
+                "pokedexNumber": "#437",
+                "name": "Bronzong",
+                "level": "Level 50",
+                "types": [
+                    "Steel",
+                    "Psychic"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/bronzong.png"
+            },
+            {
+                "pokedexNumber": "#227",
+                "name": "Skarmory",
+                "level": "Level 52",
+                "types": [
+                    "Steel",
+                    "Flying"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/skarmory.png"
+            },
+            {
+                "pokedexNumber": "#395",
+                "name": "Empoleon",
+                "level": "Level 52",
+                "types": [
+                    "Water",
+                    "Steel"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/empoleon.png"
+            },
+            {
+                "pokedexNumber": "#376",
+                "name": "Metagross",
+                "level": "Level 52",
+                "types": [
+                    "Steel",
+                    "Psychic"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/metagross.png"
+            },
+            {
+                "pokedexNumber": "#462",
+                "name": "Magnezone",
+                "level": "Level 56",
+                "types": [
+                    "Electric",
+                    "Steel"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/magnezone.png"
+            },
+            {
+                "pokedexNumber": "#208",
+                "name": "Steelix",
+                "level": "Level 62",
+                "types": [
+                    "Steel",
+                    "Ground"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/steelix.png"
+            }
+        ],
         "battle_schedule": [
             {
                 "day": "Quarta",
@@ -104,6 +634,98 @@
         "encounter_day": "todos os dias",
         "encounter_time": "6:00 às 10:00",
         "requirements": "Ter vencido a Elite 4 pela primeira vez",
+        "first_match_team": [
+            {
+                "pokedexNumber": "#086",
+                "name": "Seel",
+                "level": "Level 30",
+                "types": [
+                    "Water"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/seel.png"
+            },
+            {
+                "pokedexNumber": "#087",
+                "name": "Dewgong",
+                "level": "Level 32",
+                "types": [
+                    "Water",
+                    "Ice"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/dewgong.png"
+            },
+            {
+                "pokedexNumber": "#221",
+                "name": "Piloswine",
+                "level": "Level 34",
+                "types": [
+                    "Ice",
+                    "Ground"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/piloswine.png"
+            }
+        ],
+        "rematch_team": [
+            {
+                "pokedexNumber": "#460",
+                "name": "Abomasnow",
+                "level": "Level 56",
+                "types": [
+                    "Grass",
+                    "Ice"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/abomasnow.png"
+            },
+            {
+                "pokedexNumber": "#362",
+                "name": "Glalie",
+                "level": "Level 52",
+                "types": [
+                    "Ice"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/glalie.png"
+            },
+            {
+                "pokedexNumber": "#478",
+                "name": "Froslass",
+                "level": "Level 52",
+                "types": [
+                    "Ice",
+                    "Ghost"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/froslass.png"
+            },
+            {
+                "pokedexNumber": "#087",
+                "name": "Dewgong",
+                "level": "Level 58",
+                "types": [
+                    "Water",
+                    "Ice"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/dewgong.png"
+            },
+            {
+                "pokedexNumber": "#365",
+                "name": "Walrein",
+                "level": "Level 54",
+                "types": [
+                    "Ice",
+                    "Water"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/walrein.png"
+            },
+            {
+                "pokedexNumber": "#473",
+                "name": "Mamoswine",
+                "level": "Level 60",
+                "types": [
+                    "Ice",
+                    "Ground"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/mamoswine.png"
+            }
+        ],
         "battle_schedule": [
             {
                 "day": "Segunda",
@@ -120,6 +742,107 @@
         "encounter_day": "todos os dias",
         "encounter_time": "6:00 às 10:00",
         "requirements": "Ter derrotado Clair e Lance na batalha em dupla com seu rival no Dragon’s Den",
+        "first_match_team": [
+            {
+                "pokedexNumber": "#148",
+                "name": "Dragonair",
+                "level": "Level 38",
+                "types": [
+                    "Dragon"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/dragonair.png"
+            },
+            {
+                "pokedexNumber": "#148",
+                "name": "Dragonair",
+                "level": "Level 38",
+                "types": [
+                    "Dragon"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/dragonair.png"
+            },
+            {
+                "pokedexNumber": "#130",
+                "name": "Gyarados",
+                "level": "Level 38",
+                "types": [
+                    "Water",
+                    "Flying"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/gyarados.png"
+            },
+            {
+                "pokedexNumber": "#230",
+                "name": "Kingdra",
+                "level": "Level 41",
+                "types": [
+                    "Water",
+                    "Dragon"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/kingdra.png"
+            }
+        ],
+        "rematch_team": [
+            {
+                "pokedexNumber": "#148",
+                "name": "Dragonair",
+                "level": "Level 52",
+                "types": [
+                    "Dragon"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/dragonair.png"
+            },
+            {
+                "pokedexNumber": "#130",
+                "name": "Gyarados",
+                "level": "Level 56",
+                "types": [
+                    "Water",
+                    "Flying"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/gyarados.png"
+            },
+            {
+                "pokedexNumber": "#142",
+                "name": "Aerodactyl",
+                "level": "Level 52",
+                "types": [
+                    "Rock",
+                    "Flying"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/aerodactyl.png"
+            },
+            {
+                "pokedexNumber": "#006",
+                "name": "Charizard",
+                "level": "Level 52",
+                "types": [
+                    "Fire",
+                    "Flying"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/charizard.png"
+            },
+            {
+                "pokedexNumber": "#230",
+                "name": "Kingdra",
+                "level": "Level 56",
+                "types": [
+                    "Water",
+                    "Dragon"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/kingdra.png"
+            },
+            {
+                "pokedexNumber": "#149",
+                "name": "Dragonite",
+                "level": "Level 60",
+                "types": [
+                    "Dragon",
+                    "Flying"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/dragonite.png"
+            }
+        ],
         "battle_schedule": [
             {
                 "day": "Sexta",
@@ -136,6 +859,119 @@
         "encounter_day": "todos os dias",
         "encounter_time": "12:00 às 15:00",
         "requirements": "Ter obtido as 16 insígnias",
+        "first_match_team": [
+            {
+                "pokedexNumber": "#075",
+                "name": "Graveler",
+                "level": "Level 51",
+                "types": [
+                    "Rock",
+                    "Ground"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/graveler.png"
+            },
+            {
+                "pokedexNumber": "#111",
+                "name": "Rhyhorn",
+                "level": "Level 51",
+                "types": [
+                    "Ground",
+                    "Rock"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/rhyhorn.png"
+            },
+            {
+                "pokedexNumber": "#139",
+                "name": "Omastar",
+                "level": "Level 53",
+                "types": [
+                    "Rock",
+                    "Water"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/omastar.png"
+            },
+            {
+                "pokedexNumber": "#095",
+                "name": "Onix",
+                "level": "Level 54",
+                "types": [
+                    "Rock",
+                    "Ground"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/onix.png"
+            },
+            {
+                "pokedexNumber": "#141",
+                "name": "Kabutops",
+                "level": "Level 52",
+                "types": [
+                    "Rock",
+                    "Water"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/kabutops.png"
+            }
+        ],
+        "rematch_team": [
+            {
+                "pokedexNumber": "#076",
+                "name": "Golem",
+                "level": "Level 55",
+                "types": [
+                    "Rock",
+                    "Ground"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/golem.png"
+            },
+            {
+                "pokedexNumber": "#369",
+                "name": "Relicanth",
+                "level": "Level 54",
+                "types": [
+                    "Water",
+                    "Rock"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/relicanth.png"
+            },
+            {
+                "pokedexNumber": "#139",
+                "name": "Omastar",
+                "level": "Level 56",
+                "types": [
+                    "Rock",
+                    "Water"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/omastar.png"
+            },
+            {
+                "pokedexNumber": "#141",
+                "name": "Kabutops",
+                "level": "Level 55",
+                "types": [
+                    "Rock",
+                    "Water"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/kabutops.png"
+            },
+            {
+                "pokedexNumber": "#409",
+                "name": "Rampardos",
+                "level": "Level 57",
+                "types": [
+                    "Rock"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/rampardos.png"
+            },
+            {
+                "pokedexNumber": "#095",
+                "name": "Onix",
+                "level": "Level 61",
+                "types": [
+                    "Rock",
+                    "Ground"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/onix.png"
+            }
+        ],
         "battle_schedule": [
             {
                 "day": "Sábado",
@@ -152,6 +988,107 @@
         "encounter_day": "todos os dias",
         "encounter_time": "16:00 às 18:00",
         "requirements": "Ter obtido as 16 insígnias e enfrentado Suicune",
+        "first_match_team": [
+            {
+                "pokedexNumber": "#055",
+                "name": "Golduck",
+                "level": "Level 49",
+                "types": [
+                    "Water"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/golduck.png"
+            },
+            {
+                "pokedexNumber": "#195",
+                "name": "Quagsire",
+                "level": "Level 49",
+                "types": [
+                    "Water",
+                    "Ground"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/quagsire.png"
+            },
+            {
+                "pokedexNumber": "#131",
+                "name": "Lapras",
+                "level": "Level 52",
+                "types": [
+                    "Water",
+                    "Ice"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/lapras.png"
+            },
+            {
+                "pokedexNumber": "#121",
+                "name": "Starmie",
+                "level": "Level 54",
+                "types": [
+                    "Water",
+                    "Psychic"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/starmie.png"
+            }
+        ],
+        "rematch_team": [
+            {
+                "pokedexNumber": "#195",
+                "name": "Quagsire",
+                "level": "Level 56",
+                "types": [
+                    "Water",
+                    "Ground"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/quagsire.png"
+            },
+            {
+                "pokedexNumber": "#131",
+                "name": "Lapras",
+                "level": "Level 56",
+                "types": [
+                    "Water",
+                    "Ice"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/lapras.png"
+            },
+            {
+                "pokedexNumber": "#171",
+                "name": "Lanturn",
+                "level": "Level 54",
+                "types": [
+                    "Water",
+                    "Electric"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/lanturn.png"
+            },
+            {
+                "pokedexNumber": "#419",
+                "name": "Floatzel",
+                "level": "Level 54",
+                "types": [
+                    "Water"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/floatzel.png"
+            },
+            {
+                "pokedexNumber": "#350",
+                "name": "Milotic",
+                "level": "Level 60",
+                "types": [
+                    "Water"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/milotic.png"
+            },
+            {
+                "pokedexNumber": "#121",
+                "name": "Starmie",
+                "level": "Level 60",
+                "types": [
+                    "Water",
+                    "Psychic"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/starmie.png"
+            }
+        ],
         "battle_schedule": [
             {
                 "day": "Quarta",
@@ -168,6 +1105,111 @@
         "encounter_day": "todos os dias",
         "encounter_time": "9:00 às 12:00",
         "requirements": "Ter obtido as 16 insígnias, ter enfrentado Zapdos e capturado um Pikachu",
+        "first_match_team": [
+            {
+                "pokedexNumber": "#026",
+                "name": "Raichu",
+                "level": "Level 51",
+                "types": [
+                    "Electric"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/raichu.png"
+            },
+            {
+                "pokedexNumber": "#101",
+                "name": "Electrode",
+                "level": "Level 47",
+                "types": [
+                    "Electric"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/electrode.png"
+            },
+            {
+                "pokedexNumber": "#101",
+                "name": "Electrode",
+                "level": "Level 47",
+                "types": [
+                    "Electric"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/electrode.png"
+            },
+            {
+                "pokedexNumber": "#082",
+                "name": "Magneton",
+                "level": "Level 47",
+                "types": [
+                    "Electric",
+                    "Steel"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/magneton.png"
+            },
+            {
+                "pokedexNumber": "#125",
+                "name": "Electabuzz",
+                "level": "Level 53",
+                "types": [
+                    "Electric"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/electabuzz.png"
+            }
+        ],
+        "rematch_team": [
+            {
+                "pokedexNumber": "#462",
+                "name": "Magnezone",
+                "level": "Level 52",
+                "types": [
+                    "Electric",
+                    "Steel"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/magnezone.png"
+            },
+            {
+                "pokedexNumber": "#101",
+                "name": "Electrode",
+                "level": "Level 52",
+                "types": [
+                    "Electric"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/electrode.png"
+            },
+            {
+                "pokedexNumber": "#310",
+                "name": "Manectric",
+                "level": "Level 52",
+                "types": [
+                    "Electric"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/manectric.png"
+            },
+            {
+                "pokedexNumber": "#466",
+                "name": "Electivire",
+                "level": "Level 56",
+                "types": [
+                    "Electric"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/electivire.png"
+            },
+            {
+                "pokedexNumber": "#417",
+                "name": "Pachirisu",
+                "level": "Level 58",
+                "types": [
+                    "Electric"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/pachirisu.png"
+            },
+            {
+                "pokedexNumber": "#026",
+                "name": "Raichu",
+                "level": "Level 60",
+                "types": [
+                    "Electric"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/raichu.png"
+            }
+        ],
         "battle_schedule": [
             {
                 "day": "Sexta",
@@ -184,6 +1226,106 @@
         "encounter_day": "sábado e domingo",
         "encounter_time": "das 14:00 às 17:00",
         "requirements": "Ter obtido as 16 insígnias",
+        "first_match_team": [
+            {
+                "pokedexNumber": "#189",
+                "name": "Jumpluff",
+                "level": "Level 51",
+                "types": [
+                    "Grass",
+                    "Flying"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/jumpluff.png"
+            },
+            {
+                "pokedexNumber": "#114",
+                "name": "Tangela",
+                "level": "Level 52",
+                "types": [
+                    "Grass"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/tangela.png"
+            },
+            {
+                "pokedexNumber": "#071",
+                "name": "Victreebel",
+                "level": "Level 56",
+                "types": [
+                    "Grass",
+                    "Poison"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/victreebel.png"
+            },
+            {
+                "pokedexNumber": "#182",
+                "name": "Bellossom",
+                "level": "Level 56",
+                "types": [
+                    "Grass"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/bellossom.png"
+            }
+        ],
+        "rematch_team": [
+            {
+                "pokedexNumber": "#189",
+                "name": "Jumpluff",
+                "level": "Level 53",
+                "types": [
+                    "Grass",
+                    "Flying"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/jumpluff.png"
+            },
+            {
+                "pokedexNumber": "#071",
+                "name": "Victreebel",
+                "level": "Level 56",
+                "types": [
+                    "Grass",
+                    "Poison"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/victreebel.png"
+            },
+            {
+                "pokedexNumber": "#182",
+                "name": "Bellossom",
+                "level": "Level 56",
+                "types": [
+                    "Grass"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/bellossom.png"
+            },
+            {
+                "pokedexNumber": "#275",
+                "name": "Shiftry",
+                "level": "Level 54",
+                "types": [
+                    "Grass",
+                    "Dark"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/shiftry.png"
+            },
+            {
+                "pokedexNumber": "#407",
+                "name": "Roserade",
+                "level": "Level 55",
+                "types": [
+                    "Grass",
+                    "Poison"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/roserade.png"
+            },
+            {
+                "pokedexNumber": "#465",
+                "name": "Tangrowth",
+                "level": "Level 60",
+                "types": [
+                    "Grass"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/tangrowth.png"
+            }
+        ],
         "battle_schedule": [
             {
                 "day": "Domingo",
@@ -200,6 +1342,118 @@
         "encounter_day": "todos os dias",
         "encounter_time": "16:00 às 18:00",
         "requirements": "Ter derrotado Janine em seu ginásio em Fuchsia",
+        "first_match_team": [
+            {
+                "pokedexNumber": "#169",
+                "name": "Crobat",
+                "level": "Level 47",
+                "types": [
+                    "Poison",
+                    "Flying"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/crobat.png"
+            },
+            {
+                "pokedexNumber": "#110",
+                "name": "Weezing",
+                "level": "Level 44",
+                "types": [
+                    "Poison"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/weezing.png"
+            },
+            {
+                "pokedexNumber": "#168",
+                "name": "Ariados",
+                "level": "Level 47",
+                "types": [
+                    "Bug",
+                    "Poison"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/ariados.png"
+            },
+            {
+                "pokedexNumber": "#168",
+                "name": "Ariados",
+                "level": "Level 47",
+                "types": [
+                    "Bug",
+                    "Poison"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/ariados.png"
+            },
+            {
+                "pokedexNumber": "#049",
+                "name": "Venomoth",
+                "level": "Level 50",
+                "types": [
+                    "Bug",
+                    "Poison"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/venomoth.png"
+            }
+        ],
+        "rematch_team": [
+            {
+                "pokedexNumber": "#168",
+                "name": "Ariados",
+                "level": "Level 58",
+                "types": [
+                    "Bug",
+                    "Poison"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/ariados.png"
+            },
+            {
+                "pokedexNumber": "#454",
+                "name": "Toxicroak",
+                "level": "Level 52",
+                "types": [
+                    "Poison",
+                    "Fighting"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/toxicroak.png"
+            },
+            {
+                "pokedexNumber": "#110",
+                "name": "Weezing",
+                "level": "Level 56",
+                "types": [
+                    "Poison"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/weezing.png"
+            },
+            {
+                "pokedexNumber": "#452",
+                "name": "Drapion",
+                "level": "Level 55",
+                "types": [
+                    "Poison",
+                    "Dark"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/drapion.png"
+            },
+            {
+                "pokedexNumber": "#169",
+                "name": "Crobat",
+                "level": "Level 52",
+                "types": [
+                    "Poison",
+                    "Flying"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/crobat.png"
+            },
+            {
+                "pokedexNumber": "#049",
+                "name": "Venomoth",
+                "level": "Level 59",
+                "types": [
+                    "Bug",
+                    "Poison"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/venomoth.png"
+            }
+        ],
         "battle_schedule": [
             {
                 "day": "Segunda",
@@ -216,6 +1470,95 @@
         "encounter_day": "sexta-feira",
         "encounter_time": "dia todo",
         "requirements": "Ter derrotado Sabrina em seu ginásio em Saffron",
+        "first_match_team": [
+            {
+                "pokedexNumber": "#196",
+                "name": "Espeon",
+                "level": "Level 53",
+                "types": [
+                    "Psychic"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/espeon.png"
+            },
+            {
+                "pokedexNumber": "#122",
+                "name": "Mr. Mime",
+                "level": "Level 53",
+                "types": [
+                    "Psychic",
+                    "Fairy"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/mr-mime.png"
+            },
+            {
+                "pokedexNumber": "#065",
+                "name": "Alakazam",
+                "level": "Level 55",
+                "types": [
+                    "Psychic"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/alakazam.png"
+            }
+        ],
+        "rematch_team": [
+            {
+                "pokedexNumber": "#196",
+                "name": "Espeon",
+                "level": "Level 58",
+                "types": [
+                    "Psychic"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/espeon.png"
+            },
+            {
+                "pokedexNumber": "#122",
+                "name": "Mr. Mime",
+                "level": "Level 56",
+                "types": [
+                    "Psychic",
+                    "Fairy"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/mr-mime.png"
+            },
+            {
+                "pokedexNumber": "#124",
+                "name": "Jynx",
+                "level": "Level 54",
+                "types": [
+                    "Ice",
+                    "Psychic"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/jynx.png"
+            },
+            {
+                "pokedexNumber": "#202",
+                "name": "Wobbuffet",
+                "level": "Level 53",
+                "types": [
+                    "Psychic"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/wobbuffet.png"
+            },
+            {
+                "pokedexNumber": "#475",
+                "name": "Gallade",
+                "level": "Level 53",
+                "types": [
+                    "Psychic",
+                    "Fighting"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/gallade.png"
+            },
+            {
+                "pokedexNumber": "#065",
+                "name": "Alakazam",
+                "level": "Level 60",
+                "types": [
+                    "Psychic"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/alakazam.png"
+            }
+        ],
         "battle_schedule": [
             {
                 "day": "Domingo",
@@ -232,6 +1575,95 @@
         "encounter_day": "terça-feira",
         "encounter_time": "dia todo",
         "requirements": "Ter obtido as 16 insígnias",
+        "first_match_team": [
+            {
+                "pokedexNumber": "#126",
+                "name": "Magmar",
+                "level": "Level 54",
+                "types": [
+                    "Fire"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/magmar.png"
+            },
+            {
+                "pokedexNumber": "#219",
+                "name": "Magcargo",
+                "level": "Level 54",
+                "types": [
+                    "Fire",
+                    "Rock"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/magcargo.png"
+            },
+            {
+                "pokedexNumber": "#078",
+                "name": "Rapidash",
+                "level": "Level 59",
+                "types": [
+                    "Fire"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/rapidash.png"
+            }
+        ],
+        "rematch_team": [
+            {
+                "pokedexNumber": "#324",
+                "name": "Torkoal",
+                "level": "Level 54",
+                "types": [
+                    "Fire"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/torkoal.png"
+            },
+            {
+                "pokedexNumber": "#323",
+                "name": "Camerupt",
+                "level": "Level 57",
+                "types": [
+                    "Fire",
+                    "Ground"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/camerupt.png"
+            },
+            {
+                "pokedexNumber": "#078",
+                "name": "Rapidash",
+                "level": "Level 60",
+                "types": [
+                    "Fire"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/rapidash.png"
+            },
+            {
+                "pokedexNumber": "#219",
+                "name": "Magcargo",
+                "level": "Level 58",
+                "types": [
+                    "Fire",
+                    "Rock"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/magcargo.png"
+            },
+            {
+                "pokedexNumber": "#229",
+                "name": "Houndoom",
+                "level": "Level 54",
+                "types": [
+                    "Dark",
+                    "Fire"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/houndoom.png"
+            },
+            {
+                "pokedexNumber": "#467",
+                "name": "Magmortar",
+                "level": "Level 62",
+                "types": [
+                    "Fire"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/magmortar.png"
+            }
+        ],
         "battle_schedule": [
             {
                 "day": "Terça",
@@ -248,6 +1680,126 @@
         "encounter_day": "todos os dias",
         "encounter_time": "dia todo",
         "requirements": "Mostrar a sua irmã Daisy um pokémon com felicidade máxima e que ela já deu algumas massagens",
+        "first_match_team": [
+            {
+                "pokedexNumber": "#103",
+                "name": "Exeggutor",
+                "level": "Level 55",
+                "types": [
+                    "Grass",
+                    "Psychic"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/exeggutor.png"
+            },
+            {
+                "pokedexNumber": "#068",
+                "name": "Machamp",
+                "level": "Level 56",
+                "types": [
+                    "Fighting"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/machamp.png"
+            },
+            {
+                "pokedexNumber": "#059",
+                "name": "Arcanine",
+                "level": "Level 58",
+                "types": [
+                    "Fire"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/arcanine.png"
+            },
+            {
+                "pokedexNumber": "#112",
+                "name": "Rhydon",
+                "level": "Level 58",
+                "types": [
+                    "Ground",
+                    "Rock"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/rhydon.png"
+            },
+            {
+                "pokedexNumber": "#130",
+                "name": "Gyarados",
+                "level": "Level 52",
+                "types": [
+                    "Water",
+                    "Flying"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/gyarados.png"
+            },
+            {
+                "pokedexNumber": "#018",
+                "name": "Pidgeot",
+                "level": "Level 60",
+                "types": [
+                    "Normal",
+                    "Flying"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/pidgeot.png"
+            }
+        ],
+        "rematch_team": [
+            {
+                "pokedexNumber": "#103",
+                "name": "Exeggutor",
+                "level": "Level 67",
+                "types": [
+                    "Grass",
+                    "Psychic"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/exeggutor.png"
+            },
+            {
+                "pokedexNumber": "#068",
+                "name": "Machamp",
+                "level": "Level 69",
+                "types": [
+                    "Fighting"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/machamp.png"
+            },
+            {
+                "pokedexNumber": "#059",
+                "name": "Arcanine",
+                "level": "Level 68",
+                "types": [
+                    "Fire"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/arcanine.png"
+            },
+            {
+                "pokedexNumber": "#464",
+                "name": "Rhyperior",
+                "level": "Level 70",
+                "types": [
+                    "Ground",
+                    "Rock"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/rhyperior.png"
+            },
+            {
+                "pokedexNumber": "#248",
+                "name": "Tyranitar",
+                "level": "Level 70",
+                "types": [
+                    "Rock",
+                    "Dark"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/tyranitar.png"
+            },
+            {
+                "pokedexNumber": "#018",
+                "name": "Pidgeot",
+                "level": "Level 72",
+                "types": [
+                    "Normal",
+                    "Flying"
+                ],
+                "sprite_url": "https://img.pokemondb.net/sprites/heartgold-soulsilver/normal/pidgeot.png"
+            }
+        ],
         "battle_schedule": [
             {
                 "day": "Domingo",
