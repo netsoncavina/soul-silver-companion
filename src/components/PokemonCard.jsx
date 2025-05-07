@@ -13,7 +13,7 @@ export default function PokemonCard({ pokemon }) {
       <img
         src={pokemon.sprite_url}
         alt={pokemon.name}
-        style={{ width: '50px', height: '50px' }}
+        style={{ width: '80px', height: 'auto' }}
       />
       <span style={{ fontSize: '12px', marginBottom: '4px', color: 'gray' }}>
         {pokemon.pokedexNumber}

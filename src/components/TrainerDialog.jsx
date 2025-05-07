@@ -25,7 +25,6 @@ export default function TrainerDialog({
     trainerGifMap[selectedTrainer?.trainer_name] ||
     selectedTrainer?.trainer_gif;
 
-  console.log('selectedTrainer', selectedTrainer.first_match_team);
   return (
     <Dialog
       open={openDialog}
@@ -33,6 +32,8 @@ export default function TrainerDialog({
       TransitionComponent={Transition}
       keepMounted
       aria-describedby='trainer-dialog-description'
+      fullWidth
+      maxWidth='md'
     >
       <DialogTitle>{selectedTrainer?.trainer_name}</DialogTitle>
       <DialogContent dividers sx={{ p: 0 }}>
@@ -40,7 +41,8 @@ export default function TrainerDialog({
           sx={{
             display: 'flex',
             flexDirection: 'column',
-            maxHeight: '70vh', // Ajuste conforme necessário
+            maxHeight: '90vh',
+            maxWidth: '100%',
           }}
         >
           <Box
@@ -50,13 +52,21 @@ export default function TrainerDialog({
               borderBottom: '1px solid #ccc',
             }}
           >
-            {/* Área fixa com imagens */}
-            <Box sx={{ display: 'flex', flexDirection: 'row', gap: 2 }}>
+            <Box
+              sx={{
+                display: 'flex',
+                flexDirection: 'row',
+                gap: 2,
+                maxHeight: '50%',
+                alignItems: 'center',
+                justifyContent: 'center',
+              }}
+            >
               <img
                 src={gifSrc}
                 alt={`${selectedTrainer?.trainer_name} GIF`}
                 style={{
-                  width: '100%',
+                  width: '20%',
                   height: 'auto',
                   objectFit: 'contain',
                 }}
@@ -65,7 +75,7 @@ export default function TrainerDialog({
                 src={selectedTrainer?.badge_image}
                 alt={`${selectedTrainer?.trainer_name} Badge`}
                 style={{
-                  width: '50%',
+                  width: '10%',
                   height: 'auto',
                   objectFit: 'contain',
                 }}
