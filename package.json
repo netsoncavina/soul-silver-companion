@@ -1,4 +1,5 @@
 {
+  "homepage": "https://netsoncavina.github.io/soul-silver-companion",
   "name": "soul-silver-companion",
   "private": true,
   "version": "0.0.0",
@@ -9,7 +10,9 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "fetch-data": "python src/scripts/main.py"
+    "fetch-data": "python src/scripts/main.py",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^19.1.0",
