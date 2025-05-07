@@ -253,6 +253,9 @@ def parse_badges(url: str):
         if gym_leader == "Giovanni":
             gym_leader = "Blue"
 
+        if gym_leader == "Koga":
+            gym_leader = "Janine"
+
         if gym_leader and badge_image:
             badges.append({
                 'gym_leader': gym_leader,
