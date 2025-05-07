@@ -36,10 +36,7 @@ function a11yProps(index) {
 
 export default function MatchTab({ firstMatchPokemons, rematchPokemons }) {
   const [value, setValue] = React.useState(0);
-
-  const handleChange = (event, newValue) => {
-    setValue(newValue);
-  };
+  const handleChange = (_, newValue) => setValue(newValue);
 
   return (
     <Box sx={{ width: '100%', height: '100%' }}>
@@ -48,6 +45,8 @@ export default function MatchTab({ firstMatchPokemons, rematchPokemons }) {
           value={value}
           onChange={handleChange}
           aria-label='basic tabs example'
+          centered // <—— centraliza
+          // variant='fullWidth' // opcional, distribui igualmente
         >
           <Tab label='Primeira batalha' {...a11yProps(0)} />
           <Tab label='Reencontro' {...a11yProps(1)} />
