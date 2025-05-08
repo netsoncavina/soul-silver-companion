@@ -8,6 +8,7 @@ from slugify import slugify
 import os
 
 POKEMON_EXP_URL = "https://bulbapedia.bulbagarden.net/wiki/List_of_Pok%C3%A9mon_by_experience_type"
+EXP_TABLE_URL = "https://bulbapedia.bulbagarden.net/wiki/Experience"
 POKEMON_EXP_OUTPUT_FILE = "pokemon_exp_type.json"
 TRAINER_INFO_URL = "https://www.pokemythology.net/detonados/detonado-heartgold-soulsilver/"
 BADGES_URL       = "https://bulbapedia.bulbagarden.net/wiki/Badge"
@@ -73,13 +74,63 @@ def save_pokemon_data_to_json(pokemon_list, filename):
 
     print(f"Saved {len(pokemon_list)} entries to {target_path}")
 
+from bs4 import BeautifulSoup
+import json
+
+def parse_experience_table():
+    try:
+        response = requests.get(EXP_TABLE_URL, timeout=10)
+        response.raise_for_status()
+        html = response.text
+    except requests.RequestException as e:
+        print(f"Error fetching experience table page: {e}")
+        return []
+    soup = BeautifulSoup(html, 'html.parser')
+    rows = soup.select('table.roundy tr')[2:]  # pula os dois cabeçalhos
+    result = []
+
+    for row in rows:
+        cells = row.find_all('td')
+        if len(cells) < 13:
+            continue
+
+        def get_int(cell):
+            # pega só o texto visível, remove vírgulas e converte para int
+            txt = cell.get_text(strip=True).replace(',', '')
+            return int(txt) if txt.isdigit() else 0
+
+        total_keys = ["Erratic", "Fast", "Medium Fast", "Medium Slow", "Slow", "Fluctuating"]
+        next_keys  = ["Erratic", "Fast", "Medium Fast", "Medium Slow", "Slow", "Fluctuating"]
+
+        total_exp = {k: get_int(c) for k, c in zip(total_keys, cells[:6])}
+        level     = get_int(cells[6])
+        to_next   = {k: get_int(c) for k, c in zip(next_keys, cells[7:13])}
+
+        result.append({
+            "level": level,
+            "total_experience": total_exp,
+            "to_next_level": to_next
+        })
+
+    return result
+
+
+def save_experience_data_to_json(data, filename):
+    target_path = Path(__file__).parent / "../assets" / filename
+    target_path.parent.mkdir(parents=True, exist_ok=True)
+
+    with open(target_path, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=4, ensure_ascii=False)
+
+    print(f"Saved experience data to {target_path}")
+    return target_path
+
 def initialize_pokemon_data():
     pokemon_data = fetch_pokemon_data()
     if pokemon_data:
         save_pokemon_data_to_json(pokemon_data, POKEMON_EXP_OUTPUT_FILE)
     else:
         print("No Pokémon data found.")
-
 
 def fetch_trainer_data():
     try:
@@ -222,7 +273,6 @@ def parse_gyms(html):
                     'sprite_url': sprite
                 })
     return gyms
-
 
 def parse_badges(url: str):
     try:
@@ -373,6 +423,8 @@ def initialize_trainer_data():
         print("No trainer data found.")
 
 if __name__ == "__main__":
-    initialize_pokemon_data()
-    initialize_trainer_data()
+    # initialize_pokemon_data()
+    # initialize_trainer_data()
+    exp_data = parse_experience_table()
+    save_experience_data_to_json(exp_data, "experience_data.json")
     print("All data has been fetched and saved.")

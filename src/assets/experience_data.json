@@ -1,0 +1,1902 @@
+[
+    {
+        "level": 1,
+        "total_experience": {
+            "Erratic": 0,
+            "Fast": 0,
+            "Medium Fast": 0,
+            "Medium Slow": 0,
+            "Slow": 0,
+            "Fluctuating": 0
+        },
+        "to_next_level": {
+            "Erratic": 15,
+            "Fast": 6,
+            "Medium Fast": 8,
+            "Medium Slow": 9,
+            "Slow": 10,
+            "Fluctuating": 4
+        }
+    },
+    {
+        "level": 2,
+        "total_experience": {
+            "Erratic": 15,
+            "Fast": 6,
+            "Medium Fast": 8,
+            "Medium Slow": 9,
+            "Slow": 10,
+            "Fluctuating": 4
+        },
+        "to_next_level": {
+            "Erratic": 37,
+            "Fast": 15,
+            "Medium Fast": 19,
+            "Medium Slow": 48,
+            "Slow": 23,
+            "Fluctuating": 9
+        }
+    },
+    {
+        "level": 3,
+        "total_experience": {
+            "Erratic": 52,
+            "Fast": 21,
+            "Medium Fast": 27,
+            "Medium Slow": 57,
+            "Slow": 33,
+            "Fluctuating": 13
+        },
+        "to_next_level": {
+            "Erratic": 70,
+            "Fast": 30,
+            "Medium Fast": 37,
+            "Medium Slow": 39,
+            "Slow": 47,
+            "Fluctuating": 19
+        }
+    },
+    {
+        "level": 4,
+        "total_experience": {
+            "Erratic": 122,
+            "Fast": 51,
+            "Medium Fast": 64,
+            "Medium Slow": 96,
+            "Slow": 80,
+            "Fluctuating": 32
+        },
+        "to_next_level": {
+            "Erratic": 115,
+            "Fast": 49,
+            "Medium Fast": 61,
+            "Medium Slow": 39,
+            "Slow": 76,
+            "Fluctuating": 33
+        }
+    },
+    {
+        "level": 5,
+        "total_experience": {
+            "Erratic": 237,
+            "Fast": 100,
+            "Medium Fast": 125,
+            "Medium Slow": 135,
+            "Slow": 156,
+            "Fluctuating": 65
+        },
+        "to_next_level": {
+            "Erratic": 169,
+            "Fast": 72,
+            "Medium Fast": 91,
+            "Medium Slow": 44,
+            "Slow": 114,
+            "Fluctuating": 47
+        }
+    },
+    {
+        "level": 6,
+        "total_experience": {
+            "Erratic": 406,
+            "Fast": 172,
+            "Medium Fast": 216,
+            "Medium Slow": 179,
+            "Slow": 270,
+            "Fluctuating": 112
+        },
+        "to_next_level": {
+            "Erratic": 231,
+            "Fast": 102,
+            "Medium Fast": 127,
+            "Medium Slow": 57,
+            "Slow": 158,
+            "Fluctuating": 66
+        }
+    },
+    {
+        "level": 7,
+        "total_experience": {
+            "Erratic": 637,
+            "Fast": 274,
+            "Medium Fast": 343,
+            "Medium Slow": 236,
+            "Slow": 428,
+            "Fluctuating": 178
+        },
+        "to_next_level": {
+            "Erratic": 305,
+            "Fast": 135,
+            "Medium Fast": 169,
+            "Medium Slow": 78,
+            "Slow": 212,
+            "Fluctuating": 98
+        }
+    },
+    {
+        "level": 8,
+        "total_experience": {
+            "Erratic": 942,
+            "Fast": 409,
+            "Medium Fast": 512,
+            "Medium Slow": 314,
+            "Slow": 640,
+            "Fluctuating": 276
+        },
+        "to_next_level": {
+            "Erratic": 384,
+            "Fast": 174,
+            "Medium Fast": 217,
+            "Medium Slow": 105,
+            "Slow": 271,
+            "Fluctuating": 117
+        }
+    },
+    {
+        "level": 9,
+        "total_experience": {
+            "Erratic": 1326,
+            "Fast": 583,
+            "Medium Fast": 729,
+            "Medium Slow": 419,
+            "Slow": 911,
+            "Fluctuating": 393
+        },
+        "to_next_level": {
+            "Erratic": 474,
+            "Fast": 217,
+            "Medium Fast": 271,
+            "Medium Slow": 141,
+            "Slow": 339,
+            "Fluctuating": 147
+        }
+    },
+    {
+        "level": 10,
+        "total_experience": {
+            "Erratic": 1800,
+            "Fast": 800,
+            "Medium Fast": 1000,
+            "Medium Slow": 560,
+            "Slow": 1250,
+            "Fluctuating": 540
+        },
+        "to_next_level": {
+            "Erratic": 569,
+            "Fast": 264,
+            "Medium Fast": 331,
+            "Medium Slow": 182,
+            "Slow": 413,
+            "Fluctuating": 205
+        }
+    },
+    {
+        "level": 11,
+        "total_experience": {
+            "Erratic": 2369,
+            "Fast": 1064,
+            "Medium Fast": 1331,
+            "Medium Slow": 742,
+            "Slow": 1663,
+            "Fluctuating": 745
+        },
+        "to_next_level": {
+            "Erratic": 672,
+            "Fast": 318,
+            "Medium Fast": 397,
+            "Medium Slow": 231,
+            "Slow": 497,
+            "Fluctuating": 222
+        }
+    },
+    {
+        "level": 12,
+        "total_experience": {
+            "Erratic": 3041,
+            "Fast": 1382,
+            "Medium Fast": 1728,
+            "Medium Slow": 973,
+            "Slow": 2160,
+            "Fluctuating": 967
+        },
+        "to_next_level": {
+            "Erratic": 781,
+            "Fast": 375,
+            "Medium Fast": 469,
+            "Medium Slow": 288,
+            "Slow": 586,
+            "Fluctuating": 263
+        }
+    },
+    {
+        "level": 13,
+        "total_experience": {
+            "Erratic": 3822,
+            "Fast": 1757,
+            "Medium Fast": 2197,
+            "Medium Slow": 1261,
+            "Slow": 2746,
+            "Fluctuating": 1230
+        },
+        "to_next_level": {
+            "Erratic": 897,
+            "Fast": 438,
+            "Medium Fast": 547,
+            "Medium Slow": 351,
+            "Slow": 684,
+            "Fluctuating": 361
+        }
+    },
+    {
+        "level": 14,
+        "total_experience": {
+            "Erratic": 4719,
+            "Fast": 2195,
+            "Medium Fast": 2744,
+            "Medium Slow": 1612,
+            "Slow": 3430,
+            "Fluctuating": 1591
+        },
+        "to_next_level": {
+            "Erratic": 1018,
+            "Fast": 505,
+            "Medium Fast": 631,
+            "Medium Slow": 423,
+            "Slow": 788,
+            "Fluctuating": 366
+        }
+    },
+    {
+        "level": 15,
+        "total_experience": {
+            "Erratic": 5737,
+            "Fast": 2700,
+            "Medium Fast": 3375,
+            "Medium Slow": 2035,
+            "Slow": 4218,
+            "Fluctuating": 1957
+        },
+        "to_next_level": {
+            "Erratic": 1144,
+            "Fast": 576,
+            "Medium Fast": 721,
+            "Medium Slow": 500,
+            "Slow": 902,
+            "Fluctuating": 500
+        }
+    },
+    {
+        "level": 16,
+        "total_experience": {
+            "Erratic": 6881,
+            "Fast": 3276,
+            "Medium Fast": 4096,
+            "Medium Slow": 2535,
+            "Slow": 5120,
+            "Fluctuating": 2457
+        },
+        "to_next_level": {
+            "Erratic": 1274,
+            "Fast": 654,
+            "Medium Fast": 817,
+            "Medium Slow": 585,
+            "Slow": 1021,
+            "Fluctuating": 589
+        }
+    },
+    {
+        "level": 17,
+        "total_experience": {
+            "Erratic": 8155,
+            "Fast": 3930,
+            "Medium Fast": 4913,
+            "Medium Slow": 3120,
+            "Slow": 6141,
+            "Fluctuating": 3046
+        },
+        "to_next_level": {
+            "Erratic": 1409,
+            "Fast": 735,
+            "Medium Fast": 919,
+            "Medium Slow": 678,
+            "Slow": 1149,
+            "Fluctuating": 686
+        }
+    },
+    {
+        "level": 18,
+        "total_experience": {
+            "Erratic": 9564,
+            "Fast": 4665,
+            "Medium Fast": 5832,
+            "Medium Slow": 3798,
+            "Slow": 7290,
+            "Fluctuating": 3732
+        },
+        "to_next_level": {
+            "Erratic": 1547,
+            "Fast": 822,
+            "Medium Fast": 1027,
+            "Medium Slow": 777,
+            "Slow": 1283,
+            "Fluctuating": 794
+        }
+    },
+    {
+        "level": 19,
+        "total_experience": {
+            "Erratic": 11111,
+            "Fast": 5487,
+            "Medium Fast": 6859,
+            "Medium Slow": 4575,
+            "Slow": 8573,
+            "Fluctuating": 4526
+        },
+        "to_next_level": {
+            "Erratic": 1689,
+            "Fast": 913,
+            "Medium Fast": 1141,
+            "Medium Slow": 885,
+            "Slow": 1427,
+            "Fluctuating": 914
+        }
+    },
+    {
+        "level": 20,
+        "total_experience": {
+            "Erratic": 12800,
+            "Fast": 6400,
+            "Medium Fast": 8000,
+            "Medium Slow": 5460,
+            "Slow": 10000,
+            "Fluctuating": 5440
+        },
+        "to_next_level": {
+            "Erratic": 1832,
+            "Fast": 1008,
+            "Medium Fast": 1261,
+            "Medium Slow": 998,
+            "Slow": 1576,
+            "Fluctuating": 1042
+        }
+    },
+    {
+        "level": 21,
+        "total_experience": {
+            "Erratic": 14632,
+            "Fast": 7408,
+            "Medium Fast": 9261,
+            "Medium Slow": 6458,
+            "Slow": 11576,
+            "Fluctuating": 6482
+        },
+        "to_next_level": {
+            "Erratic": 1978,
+            "Fast": 1110,
+            "Medium Fast": 1387,
+            "Medium Slow": 1119,
+            "Slow": 1734,
+            "Fluctuating": 1184
+        }
+    },
+    {
+        "level": 22,
+        "total_experience": {
+            "Erratic": 16610,
+            "Fast": 8518,
+            "Medium Fast": 10648,
+            "Medium Slow": 7577,
+            "Slow": 13310,
+            "Fluctuating": 7666
+        },
+        "to_next_level": {
+            "Erratic": 2127,
+            "Fast": 1215,
+            "Medium Fast": 1519,
+            "Medium Slow": 1248,
+            "Slow": 1898,
+            "Fluctuating": 1337
+        }
+    },
+    {
+        "level": 23,
+        "total_experience": {
+            "Erratic": 18737,
+            "Fast": 9733,
+            "Medium Fast": 12167,
+            "Medium Slow": 8825,
+            "Slow": 15208,
+            "Fluctuating": 9003
+        },
+        "to_next_level": {
+            "Erratic": 2275,
+            "Fast": 1326,
+            "Medium Fast": 1657,
+            "Medium Slow": 1383,
+            "Slow": 2072,
+            "Fluctuating": 1503
+        }
+    },
+    {
+        "level": 24,
+        "total_experience": {
+            "Erratic": 21012,
+            "Fast": 11059,
+            "Medium Fast": 13824,
+            "Medium Slow": 10208,
+            "Slow": 17280,
+            "Fluctuating": 10506
+        },
+        "to_next_level": {
+            "Erratic": 2425,
+            "Fast": 1441,
+            "Medium Fast": 1801,
+            "Medium Slow": 1527,
+            "Slow": 2251,
+            "Fluctuating": 1681
+        }
+    },
+    {
+        "level": 25,
+        "total_experience": {
+            "Erratic": 23437,
+            "Fast": 12500,
+            "Medium Fast": 15625,
+            "Medium Slow": 11735,
+            "Slow": 19531,
+            "Fluctuating": 12187
+        },
+        "to_next_level": {
+            "Erratic": 2575,
+            "Fast": 1560,
+            "Medium Fast": 1951,
+            "Medium Slow": 1676,
+            "Slow": 2439,
+            "Fluctuating": 1873
+        }
+    },
+    {
+        "level": 26,
+        "total_experience": {
+            "Erratic": 26012,
+            "Fast": 14060,
+            "Medium Fast": 17576,
+            "Medium Slow": 13411,
+            "Slow": 21970,
+            "Fluctuating": 14060
+        },
+        "to_next_level": {
+            "Erratic": 2725,
+            "Fast": 1686,
+            "Medium Fast": 2107,
+            "Medium Slow": 1833,
+            "Slow": 2633,
+            "Fluctuating": 2080
+        }
+    },
+    {
+        "level": 27,
+        "total_experience": {
+            "Erratic": 28737,
+            "Fast": 15746,
+            "Medium Fast": 19683,
+            "Medium Slow": 15244,
+            "Slow": 24603,
+            "Fluctuating": 16140
+        },
+        "to_next_level": {
+            "Erratic": 2873,
+            "Fast": 1815,
+            "Medium Fast": 2269,
+            "Medium Slow": 1998,
+            "Slow": 2837,
+            "Fluctuating": 2299
+        }
+    },
+    {
+        "level": 28,
+        "total_experience": {
+            "Erratic": 31610,
+            "Fast": 17561,
+            "Medium Fast": 21952,
+            "Medium Slow": 17242,
+            "Slow": 27440,
+            "Fluctuating": 18439
+        },
+        "to_next_level": {
+            "Erratic": 3022,
+            "Fast": 1950,
+            "Medium Fast": 2437,
+            "Medium Slow": 2169,
+            "Slow": 3046,
+            "Fluctuating": 2535
+        }
+    },
+    {
+        "level": 29,
+        "total_experience": {
+            "Erratic": 34632,
+            "Fast": 19511,
+            "Medium Fast": 24389,
+            "Medium Slow": 19411,
+            "Slow": 30486,
+            "Fluctuating": 20974
+        },
+        "to_next_level": {
+            "Erratic": 3168,
+            "Fast": 2089,
+            "Medium Fast": 2611,
+            "Medium Slow": 2349,
+            "Slow": 3264,
+            "Fluctuating": 2786
+        }
+    },
+    {
+        "level": 30,
+        "total_experience": {
+            "Erratic": 37800,
+            "Fast": 21600,
+            "Medium Fast": 27000,
+            "Medium Slow": 21760,
+            "Slow": 33750,
+            "Fluctuating": 23760
+        },
+        "to_next_level": {
+            "Erratic": 3311,
+            "Fast": 2232,
+            "Medium Fast": 2791,
+            "Medium Slow": 2534,
+            "Slow": 3488,
+            "Fluctuating": 3051
+        }
+    },
+    {
+        "level": 31,
+        "total_experience": {
+            "Erratic": 41111,
+            "Fast": 23832,
+            "Medium Fast": 29791,
+            "Medium Slow": 24294,
+            "Slow": 37238,
+            "Fluctuating": 26811
+        },
+        "to_next_level": {
+            "Erratic": 3453,
+            "Fast": 2382,
+            "Medium Fast": 2977,
+            "Medium Slow": 2727,
+            "Slow": 3722,
+            "Fluctuating": 3335
+        }
+    },
+    {
+        "level": 32,
+        "total_experience": {
+            "Erratic": 44564,
+            "Fast": 26214,
+            "Medium Fast": 32768,
+            "Medium Slow": 27021,
+            "Slow": 40960,
+            "Fluctuating": 30146
+        },
+        "to_next_level": {
+            "Erratic": 3591,
+            "Fast": 2535,
+            "Medium Fast": 3169,
+            "Medium Slow": 2928,
+            "Slow": 3961,
+            "Fluctuating": 3634
+        }
+    },
+    {
+        "level": 33,
+        "total_experience": {
+            "Erratic": 48155,
+            "Fast": 28749,
+            "Medium Fast": 35937,
+            "Medium Slow": 29949,
+            "Slow": 44921,
+            "Fluctuating": 33780
+        },
+        "to_next_level": {
+            "Erratic": 3726,
+            "Fast": 2694,
+            "Medium Fast": 3367,
+            "Medium Slow": 3135,
+            "Slow": 4209,
+            "Fluctuating": 3951
+        }
+    },
+    {
+        "level": 34,
+        "total_experience": {
+            "Erratic": 51881,
+            "Fast": 31443,
+            "Medium Fast": 39304,
+            "Medium Slow": 33084,
+            "Slow": 49130,
+            "Fluctuating": 37731
+        },
+        "to_next_level": {
+            "Erratic": 3856,
+            "Fast": 2857,
+            "Medium Fast": 3571,
+            "Medium Slow": 3351,
+            "Slow": 4463,
+            "Fluctuating": 4286
+        }
+    },
+    {
+        "level": 35,
+        "total_experience": {
+            "Erratic": 55737,
+            "Fast": 34300,
+            "Medium Fast": 42875,
+            "Medium Slow": 36435,
+            "Slow": 53593,
+            "Fluctuating": 42017
+        },
+        "to_next_level": {
+            "Erratic": 3982,
+            "Fast": 3024,
+            "Medium Fast": 3781,
+            "Medium Slow": 3572,
+            "Slow": 4727,
+            "Fluctuating": 4639
+        }
+    },
+    {
+        "level": 36,
+        "total_experience": {
+            "Erratic": 59719,
+            "Fast": 37324,
+            "Medium Fast": 46656,
+            "Medium Slow": 40007,
+            "Slow": 58320,
+            "Fluctuating": 46656
+        },
+        "to_next_level": {
+            "Erratic": 4103,
+            "Fast": 3198,
+            "Medium Fast": 3997,
+            "Medium Slow": 3801,
+            "Slow": 4996,
+            "Fluctuating": 3997
+        }
+    },
+    {
+        "level": 37,
+        "total_experience": {
+            "Erratic": 63822,
+            "Fast": 40522,
+            "Medium Fast": 50653,
+            "Medium Slow": 43808,
+            "Slow": 63316,
+            "Fluctuating": 50653
+        },
+        "to_next_level": {
+            "Erratic": 4219,
+            "Fast": 3375,
+            "Medium Fast": 4219,
+            "Medium Slow": 4038,
+            "Slow": 5274,
+            "Fluctuating": 5316
+        }
+    },
+    {
+        "level": 38,
+        "total_experience": {
+            "Erratic": 68041,
+            "Fast": 43897,
+            "Medium Fast": 54872,
+            "Medium Slow": 47846,
+            "Slow": 68590,
+            "Fluctuating": 55969
+        },
+        "to_next_level": {
+            "Erratic": 4328,
+            "Fast": 3558,
+            "Medium Fast": 4447,
+            "Medium Slow": 4281,
+            "Slow": 5558,
+            "Fluctuating": 4536
+        }
+    },
+    {
+        "level": 39,
+        "total_experience": {
+            "Erratic": 72369,
+            "Fast": 47455,
+            "Medium Fast": 59319,
+            "Medium Slow": 52127,
+            "Slow": 74148,
+            "Fluctuating": 60505
+        },
+        "to_next_level": {
+            "Erratic": 4431,
+            "Fast": 3745,
+            "Medium Fast": 4681,
+            "Medium Slow": 4533,
+            "Slow": 5852,
+            "Fluctuating": 6055
+        }
+    },
+    {
+        "level": 40,
+        "total_experience": {
+            "Erratic": 76800,
+            "Fast": 51200,
+            "Medium Fast": 64000,
+            "Medium Slow": 56660,
+            "Slow": 80000,
+            "Fluctuating": 66560
+        },
+        "to_next_level": {
+            "Erratic": 4526,
+            "Fast": 3936,
+            "Medium Fast": 4921,
+            "Medium Slow": 4790,
+            "Slow": 6151,
+            "Fluctuating": 5117
+        }
+    },
+    {
+        "level": 41,
+        "total_experience": {
+            "Erratic": 81326,
+            "Fast": 55136,
+            "Medium Fast": 68921,
+            "Medium Slow": 61450,
+            "Slow": 86151,
+            "Fluctuating": 71677
+        },
+        "to_next_level": {
+            "Erratic": 4616,
+            "Fast": 4134,
+            "Medium Fast": 5167,
+            "Medium Slow": 5055,
+            "Slow": 6459,
+            "Fluctuating": 6856
+        }
+    },
+    {
+        "level": 42,
+        "total_experience": {
+            "Erratic": 85942,
+            "Fast": 59270,
+            "Medium Fast": 74088,
+            "Medium Slow": 66505,
+            "Slow": 92610,
+            "Fluctuating": 78533
+        },
+        "to_next_level": {
+            "Erratic": 4695,
+            "Fast": 4335,
+            "Medium Fast": 5419,
+            "Medium Slow": 5328,
+            "Slow": 6773,
+            "Fluctuating": 5744
+        }
+    },
+    {
+        "level": 43,
+        "total_experience": {
+            "Erratic": 90637,
+            "Fast": 63605,
+            "Medium Fast": 79507,
+            "Medium Slow": 71833,
+            "Slow": 99383,
+            "Fluctuating": 84277
+        },
+        "to_next_level": {
+            "Erratic": 4769,
+            "Fast": 4542,
+            "Medium Fast": 5677,
+            "Medium Slow": 5607,
+            "Slow": 7097,
+            "Fluctuating": 7721
+        }
+    },
+    {
+        "level": 44,
+        "total_experience": {
+            "Erratic": 95406,
+            "Fast": 68147,
+            "Medium Fast": 85184,
+            "Medium Slow": 77440,
+            "Slow": 106480,
+            "Fluctuating": 91998
+        },
+        "to_next_level": {
+            "Erratic": 4831,
+            "Fast": 4753,
+            "Medium Fast": 5941,
+            "Medium Slow": 5895,
+            "Slow": 7426,
+            "Fluctuating": 6417
+        }
+    },
+    {
+        "level": 45,
+        "total_experience": {
+            "Erratic": 100237,
+            "Fast": 72900,
+            "Medium Fast": 91125,
+            "Medium Slow": 83335,
+            "Slow": 113906,
+            "Fluctuating": 98415
+        },
+        "to_next_level": {
+            "Erratic": 4885,
+            "Fast": 4968,
+            "Medium Fast": 6211,
+            "Medium Slow": 6188,
+            "Slow": 7764,
+            "Fluctuating": 8654
+        }
+    },
+    {
+        "level": 46,
+        "total_experience": {
+            "Erratic": 105122,
+            "Fast": 77868,
+            "Medium Fast": 97336,
+            "Medium Slow": 89523,
+            "Slow": 121670,
+            "Fluctuating": 107069
+        },
+        "to_next_level": {
+            "Erratic": 4930,
+            "Fast": 5190,
+            "Medium Fast": 6487,
+            "Medium Slow": 6489,
+            "Slow": 8108,
+            "Fluctuating": 7136
+        }
+    },
+    {
+        "level": 47,
+        "total_experience": {
+            "Erratic": 110052,
+            "Fast": 83058,
+            "Medium Fast": 103823,
+            "Medium Slow": 96012,
+            "Slow": 129778,
+            "Fluctuating": 114205
+        },
+        "to_next_level": {
+            "Erratic": 4963,
+            "Fast": 5415,
+            "Medium Fast": 6769,
+            "Medium Slow": 6798,
+            "Slow": 8462,
+            "Fluctuating": 9658
+        }
+    },
+    {
+        "level": 48,
+        "total_experience": {
+            "Erratic": 115015,
+            "Fast": 88473,
+            "Medium Fast": 110592,
+            "Medium Slow": 102810,
+            "Slow": 138240,
+            "Fluctuating": 123863
+        },
+        "to_next_level": {
+            "Erratic": 4986,
+            "Fast": 5646,
+            "Medium Fast": 7057,
+            "Medium Slow": 7113,
+            "Slow": 8821,
+            "Fluctuating": 7903
+        }
+    },
+    {
+        "level": 49,
+        "total_experience": {
+            "Erratic": 120001,
+            "Fast": 94119,
+            "Medium Fast": 117649,
+            "Medium Slow": 109923,
+            "Slow": 147061,
+            "Fluctuating": 131766
+        },
+        "to_next_level": {
+            "Erratic": 4999,
+            "Fast": 5881,
+            "Medium Fast": 7351,
+            "Medium Slow": 7437,
+            "Slow": 9189,
+            "Fluctuating": 10734
+        }
+    },
+    {
+        "level": 50,
+        "total_experience": {
+            "Erratic": 125000,
+            "Fast": 100000,
+            "Medium Fast": 125000,
+            "Medium Slow": 117360,
+            "Slow": 156250,
+            "Fluctuating": 142500
+        },
+        "to_next_level": {
+            "Erratic": 6324,
+            "Fast": 6120,
+            "Medium Fast": 7651,
+            "Medium Slow": 7766,
+            "Slow": 9563,
+            "Fluctuating": 8722
+        }
+    },
+    {
+        "level": 51,
+        "total_experience": {
+            "Erratic": 131324,
+            "Fast": 106120,
+            "Medium Fast": 132651,
+            "Medium Slow": 125126,
+            "Slow": 165813,
+            "Fluctuating": 151222
+        },
+        "to_next_level": {
+            "Erratic": 6471,
+            "Fast": 6366,
+            "Medium Fast": 7957,
+            "Medium Slow": 8103,
+            "Slow": 9947,
+            "Fluctuating": 11883
+        }
+    },
+    {
+        "level": 52,
+        "total_experience": {
+            "Erratic": 137795,
+            "Fast": 112486,
+            "Medium Fast": 140608,
+            "Medium Slow": 133229,
+            "Slow": 175760,
+            "Fluctuating": 163105
+        },
+        "to_next_level": {
+            "Erratic": 6615,
+            "Fast": 6615,
+            "Medium Fast": 8269,
+            "Medium Slow": 8448,
+            "Slow": 10336,
+            "Fluctuating": 9592
+        }
+    },
+    {
+        "level": 53,
+        "total_experience": {
+            "Erratic": 144410,
+            "Fast": 119101,
+            "Medium Fast": 148877,
+            "Medium Slow": 141677,
+            "Slow": 186096,
+            "Fluctuating": 172697
+        },
+        "to_next_level": {
+            "Erratic": 6755,
+            "Fast": 6870,
+            "Medium Fast": 8587,
+            "Medium Slow": 8799,
+            "Slow": 10734,
+            "Fluctuating": 13110
+        }
+    },
+    {
+        "level": 54,
+        "total_experience": {
+            "Erratic": 151165,
+            "Fast": 125971,
+            "Medium Fast": 157464,
+            "Medium Slow": 150476,
+            "Slow": 196830,
+            "Fluctuating": 185807
+        },
+        "to_next_level": {
+            "Erratic": 6891,
+            "Fast": 7129,
+            "Medium Fast": 8911,
+            "Medium Slow": 9159,
+            "Slow": 11138,
+            "Fluctuating": 10515
+        }
+    },
+    {
+        "level": 55,
+        "total_experience": {
+            "Erratic": 158056,
+            "Fast": 133100,
+            "Medium Fast": 166375,
+            "Medium Slow": 159635,
+            "Slow": 207968,
+            "Fluctuating": 196322
+        },
+        "to_next_level": {
+            "Erratic": 7023,
+            "Fast": 7392,
+            "Medium Fast": 9241,
+            "Medium Slow": 9524,
+            "Slow": 11552,
+            "Fluctuating": 14417
+        }
+    },
+    {
+        "level": 56,
+        "total_experience": {
+            "Erratic": 165079,
+            "Fast": 140492,
+            "Medium Fast": 175616,
+            "Medium Slow": 169159,
+            "Slow": 219520,
+            "Fluctuating": 210739
+        },
+        "to_next_level": {
+            "Erratic": 7150,
+            "Fast": 7662,
+            "Medium Fast": 9577,
+            "Medium Slow": 9897,
+            "Slow": 11971,
+            "Fluctuating": 11492
+        }
+    },
+    {
+        "level": 57,
+        "total_experience": {
+            "Erratic": 172229,
+            "Fast": 148154,
+            "Medium Fast": 185193,
+            "Medium Slow": 179056,
+            "Slow": 231491,
+            "Fluctuating": 222231
+        },
+        "to_next_level": {
+            "Erratic": 7274,
+            "Fast": 7935,
+            "Medium Fast": 9919,
+            "Medium Slow": 10278,
+            "Slow": 12399,
+            "Fluctuating": 15805
+        }
+    },
+    {
+        "level": 58,
+        "total_experience": {
+            "Erratic": 179503,
+            "Fast": 156089,
+            "Medium Fast": 195112,
+            "Medium Slow": 189334,
+            "Slow": 243890,
+            "Fluctuating": 238036
+        },
+        "to_next_level": {
+            "Erratic": 7391,
+            "Fast": 8214,
+            "Medium Fast": 10267,
+            "Medium Slow": 10665,
+            "Slow": 12833,
+            "Fluctuating": 12526
+        }
+    },
+    {
+        "level": 59,
+        "total_experience": {
+            "Erratic": 186894,
+            "Fast": 164303,
+            "Medium Fast": 205379,
+            "Medium Slow": 199999,
+            "Slow": 256723,
+            "Fluctuating": 250562
+        },
+        "to_next_level": {
+            "Erratic": 7506,
+            "Fast": 8497,
+            "Medium Fast": 10621,
+            "Medium Slow": 11061,
+            "Slow": 13277,
+            "Fluctuating": 17278
+        }
+    },
+    {
+        "level": 60,
+        "total_experience": {
+            "Erratic": 194400,
+            "Fast": 172800,
+            "Medium Fast": 216000,
+            "Medium Slow": 211060,
+            "Slow": 270000,
+            "Fluctuating": 267840
+        },
+        "to_next_level": {
+            "Erratic": 7613,
+            "Fast": 8784,
+            "Medium Fast": 10981,
+            "Medium Slow": 11462,
+            "Slow": 13726,
+            "Fluctuating": 13616
+        }
+    },
+    {
+        "level": 61,
+        "total_experience": {
+            "Erratic": 202013,
+            "Fast": 181584,
+            "Medium Fast": 226981,
+            "Medium Slow": 222522,
+            "Slow": 283726,
+            "Fluctuating": 281456
+        },
+        "to_next_level": {
+            "Erratic": 7715,
+            "Fast": 9078,
+            "Medium Fast": 11347,
+            "Medium Slow": 11871,
+            "Slow": 14184,
+            "Fluctuating": 18837
+        }
+    },
+    {
+        "level": 62,
+        "total_experience": {
+            "Erratic": 209728,
+            "Fast": 190662,
+            "Medium Fast": 238328,
+            "Medium Slow": 234393,
+            "Slow": 297910,
+            "Fluctuating": 300293
+        },
+        "to_next_level": {
+            "Erratic": 7812,
+            "Fast": 9375,
+            "Medium Fast": 11719,
+            "Medium Slow": 12288,
+            "Slow": 14648,
+            "Fluctuating": 14766
+        }
+    },
+    {
+        "level": 63,
+        "total_experience": {
+            "Erratic": 217540,
+            "Fast": 200037,
+            "Medium Fast": 250047,
+            "Medium Slow": 246681,
+            "Slow": 312558,
+            "Fluctuating": 315059
+        },
+        "to_next_level": {
+            "Erratic": 7903,
+            "Fast": 9678,
+            "Medium Fast": 12097,
+            "Medium Slow": 12711,
+            "Slow": 15122,
+            "Fluctuating": 20485
+        }
+    },
+    {
+        "level": 64,
+        "total_experience": {
+            "Erratic": 225443,
+            "Fast": 209715,
+            "Medium Fast": 262144,
+            "Medium Slow": 259392,
+            "Slow": 327680,
+            "Fluctuating": 335544
+        },
+        "to_next_level": {
+            "Erratic": 7988,
+            "Fast": 9985,
+            "Medium Fast": 12481,
+            "Medium Slow": 13143,
+            "Slow": 15601,
+            "Fluctuating": 15976
+        }
+    },
+    {
+        "level": 65,
+        "total_experience": {
+            "Erratic": 233431,
+            "Fast": 219700,
+            "Medium Fast": 274625,
+            "Medium Slow": 272535,
+            "Slow": 343281,
+            "Fluctuating": 351520
+        },
+        "to_next_level": {
+            "Erratic": 8065,
+            "Fast": 10296,
+            "Medium Fast": 12871,
+            "Medium Slow": 13580,
+            "Slow": 16089,
+            "Fluctuating": 22224
+        }
+    },
+    {
+        "level": 66,
+        "total_experience": {
+            "Erratic": 241496,
+            "Fast": 229996,
+            "Medium Fast": 287496,
+            "Medium Slow": 286115,
+            "Slow": 359370,
+            "Fluctuating": 373744
+        },
+        "to_next_level": {
+            "Erratic": 8137,
+            "Fast": 10614,
+            "Medium Fast": 13267,
+            "Medium Slow": 14025,
+            "Slow": 16583,
+            "Fluctuating": 17247
+        }
+    },
+    {
+        "level": 67,
+        "total_experience": {
+            "Erratic": 249633,
+            "Fast": 240610,
+            "Medium Fast": 300763,
+            "Medium Slow": 300140,
+            "Slow": 375953,
+            "Fluctuating": 390991
+        },
+        "to_next_level": {
+            "Erratic": 8201,
+            "Fast": 10935,
+            "Medium Fast": 13669,
+            "Medium Slow": 14478,
+            "Slow": 17087,
+            "Fluctuating": 24059
+        }
+    },
+    {
+        "level": 68,
+        "total_experience": {
+            "Erratic": 257834,
+            "Fast": 251545,
+            "Medium Fast": 314432,
+            "Medium Slow": 314618,
+            "Slow": 393040,
+            "Fluctuating": 415050
+        },
+        "to_next_level": {
+            "Erratic": 9572,
+            "Fast": 11262,
+            "Medium Fast": 14077,
+            "Medium Slow": 14937,
+            "Slow": 17596,
+            "Fluctuating": 18581
+        }
+    },
+    {
+        "level": 69,
+        "total_experience": {
+            "Erratic": 267406,
+            "Fast": 262807,
+            "Medium Fast": 328509,
+            "Medium Slow": 329555,
+            "Slow": 410636,
+            "Fluctuating": 433631
+        },
+        "to_next_level": {
+            "Erratic": 9052,
+            "Fast": 11593,
+            "Medium Fast": 14491,
+            "Medium Slow": 15405,
+            "Slow": 18114,
+            "Fluctuating": 25989
+        }
+    },
+    {
+        "level": 70,
+        "total_experience": {
+            "Erratic": 276458,
+            "Fast": 274400,
+            "Medium Fast": 343000,
+            "Medium Slow": 344960,
+            "Slow": 428750,
+            "Fluctuating": 459620
+        },
+        "to_next_level": {
+            "Erratic": 9870,
+            "Fast": 11928,
+            "Medium Fast": 14911,
+            "Medium Slow": 15878,
+            "Slow": 18638,
+            "Fluctuating": 19980
+        }
+    },
+    {
+        "level": 71,
+        "total_experience": {
+            "Erratic": 286328,
+            "Fast": 286328,
+            "Medium Fast": 357911,
+            "Medium Slow": 360838,
+            "Slow": 447388,
+            "Fluctuating": 479600
+        },
+        "to_next_level": {
+            "Erratic": 10030,
+            "Fast": 12270,
+            "Medium Fast": 15337,
+            "Medium Slow": 16359,
+            "Slow": 19172,
+            "Fluctuating": 28017
+        }
+    },
+    {
+        "level": 72,
+        "total_experience": {
+            "Erratic": 296358,
+            "Fast": 298598,
+            "Medium Fast": 373248,
+            "Medium Slow": 377197,
+            "Slow": 466560,
+            "Fluctuating": 507617
+        },
+        "to_next_level": {
+            "Erratic": 9409,
+            "Fast": 12615,
+            "Medium Fast": 15769,
+            "Medium Slow": 16848,
+            "Slow": 19711,
+            "Fluctuating": 21446
+        }
+    },
+    {
+        "level": 73,
+        "total_experience": {
+            "Erratic": 305767,
+            "Fast": 311213,
+            "Medium Fast": 389017,
+            "Medium Slow": 394045,
+            "Slow": 486271,
+            "Fluctuating": 529063
+        },
+        "to_next_level": {
+            "Erratic": 10307,
+            "Fast": 12966,
+            "Medium Fast": 16207,
+            "Medium Slow": 17343,
+            "Slow": 20259,
+            "Fluctuating": 30146
+        }
+    },
+    {
+        "level": 74,
+        "total_experience": {
+            "Erratic": 316074,
+            "Fast": 324179,
+            "Medium Fast": 405224,
+            "Medium Slow": 411388,
+            "Slow": 506530,
+            "Fluctuating": 559209
+        },
+        "to_next_level": {
+            "Erratic": 10457,
+            "Fast": 13321,
+            "Medium Fast": 16651,
+            "Medium Slow": 17847,
+            "Slow": 20813,
+            "Fluctuating": 22978
+        }
+    },
+    {
+        "level": 75,
+        "total_experience": {
+            "Erratic": 326531,
+            "Fast": 337500,
+            "Medium Fast": 421875,
+            "Medium Slow": 429235,
+            "Slow": 527343,
+            "Fluctuating": 582187
+        },
+        "to_next_level": {
+            "Erratic": 9724,
+            "Fast": 13680,
+            "Medium Fast": 17101,
+            "Medium Slow": 18356,
+            "Slow": 21377,
+            "Fluctuating": 32379
+        }
+    },
+    {
+        "level": 76,
+        "total_experience": {
+            "Erratic": 336255,
+            "Fast": 351180,
+            "Medium Fast": 438976,
+            "Medium Slow": 447591,
+            "Slow": 548720,
+            "Fluctuating": 614566
+        },
+        "to_next_level": {
+            "Erratic": 10710,
+            "Fast": 14046,
+            "Medium Fast": 17557,
+            "Medium Slow": 18873,
+            "Slow": 21946,
+            "Fluctuating": 24580
+        }
+    },
+    {
+        "level": 77,
+        "total_experience": {
+            "Erratic": 346965,
+            "Fast": 365226,
+            "Medium Fast": 456533,
+            "Medium Slow": 466464,
+            "Slow": 570666,
+            "Fluctuating": 639146
+        },
+        "to_next_level": {
+            "Erratic": 10847,
+            "Fast": 14415,
+            "Medium Fast": 18019,
+            "Medium Slow": 19398,
+            "Slow": 22524,
+            "Fluctuating": 34717
+        }
+    },
+    {
+        "level": 78,
+        "total_experience": {
+            "Erratic": 357812,
+            "Fast": 379641,
+            "Medium Fast": 474552,
+            "Medium Slow": 485862,
+            "Slow": 593190,
+            "Fluctuating": 673863
+        },
+        "to_next_level": {
+            "Erratic": 9995,
+            "Fast": 14790,
+            "Medium Fast": 18487,
+            "Medium Slow": 19929,
+            "Slow": 23108,
+            "Fluctuating": 26252
+        }
+    },
+    {
+        "level": 79,
+        "total_experience": {
+            "Erratic": 367807,
+            "Fast": 394431,
+            "Medium Fast": 493039,
+            "Medium Slow": 505791,
+            "Slow": 616298,
+            "Fluctuating": 700115
+        },
+        "to_next_level": {
+            "Erratic": 11073,
+            "Fast": 15169,
+            "Medium Fast": 18961,
+            "Medium Slow": 20469,
+            "Slow": 23702,
+            "Fluctuating": 37165
+        }
+    },
+    {
+        "level": 80,
+        "total_experience": {
+            "Erratic": 378880,
+            "Fast": 409600,
+            "Medium Fast": 512000,
+            "Medium Slow": 526260,
+            "Slow": 640000,
+            "Fluctuating": 737280
+        },
+        "to_next_level": {
+            "Erratic": 11197,
+            "Fast": 15552,
+            "Medium Fast": 19441,
+            "Medium Slow": 21014,
+            "Slow": 24301,
+            "Fluctuating": 27995
+        }
+    },
+    {
+        "level": 81,
+        "total_experience": {
+            "Erratic": 390077,
+            "Fast": 425152,
+            "Medium Fast": 531441,
+            "Medium Slow": 547274,
+            "Slow": 664301,
+            "Fluctuating": 765275
+        },
+        "to_next_level": {
+            "Erratic": 10216,
+            "Fast": 15942,
+            "Medium Fast": 19927,
+            "Medium Slow": 21567,
+            "Slow": 24909,
+            "Fluctuating": 39722
+        }
+    },
+    {
+        "level": 82,
+        "total_experience": {
+            "Erratic": 400293,
+            "Fast": 441094,
+            "Medium Fast": 551368,
+            "Medium Slow": 568841,
+            "Slow": 689210,
+            "Fluctuating": 804997
+        },
+        "to_next_level": {
+            "Erratic": 11393,
+            "Fast": 16335,
+            "Medium Fast": 20419,
+            "Medium Slow": 22128,
+            "Slow": 25523,
+            "Fluctuating": 29812
+        }
+    },
+    {
+        "level": 83,
+        "total_experience": {
+            "Erratic": 411686,
+            "Fast": 457429,
+            "Medium Fast": 571787,
+            "Medium Slow": 590969,
+            "Slow": 714733,
+            "Fluctuating": 834809
+        },
+        "to_next_level": {
+            "Erratic": 11504,
+            "Fast": 16734,
+            "Medium Fast": 20917,
+            "Medium Slow": 22695,
+            "Slow": 26147,
+            "Fluctuating": 42392
+        }
+    },
+    {
+        "level": 84,
+        "total_experience": {
+            "Erratic": 423190,
+            "Fast": 474163,
+            "Medium Fast": 592704,
+            "Medium Slow": 613664,
+            "Slow": 740880,
+            "Fluctuating": 877201
+        },
+        "to_next_level": {
+            "Erratic": 10382,
+            "Fast": 17137,
+            "Medium Fast": 21421,
+            "Medium Slow": 23271,
+            "Slow": 26776,
+            "Fluctuating": 31704
+        }
+    },
+    {
+        "level": 85,
+        "total_experience": {
+            "Erratic": 433572,
+            "Fast": 491300,
+            "Medium Fast": 614125,
+            "Medium Slow": 636935,
+            "Slow": 767656,
+            "Fluctuating": 908905
+        },
+        "to_next_level": {
+            "Erratic": 11667,
+            "Fast": 17544,
+            "Medium Fast": 21931,
+            "Medium Slow": 23852,
+            "Slow": 27414,
+            "Fluctuating": 45179
+        }
+    },
+    {
+        "level": 86,
+        "total_experience": {
+            "Erratic": 445239,
+            "Fast": 508844,
+            "Medium Fast": 636056,
+            "Medium Slow": 660787,
+            "Slow": 795070,
+            "Fluctuating": 954084
+        },
+        "to_next_level": {
+            "Erratic": 11762,
+            "Fast": 17958,
+            "Medium Fast": 22447,
+            "Medium Slow": 24441,
+            "Slow": 28058,
+            "Fluctuating": 33670
+        }
+    },
+    {
+        "level": 87,
+        "total_experience": {
+            "Erratic": 457001,
+            "Fast": 526802,
+            "Medium Fast": 658503,
+            "Medium Slow": 685228,
+            "Slow": 823128,
+            "Fluctuating": 987754
+        },
+        "to_next_level": {
+            "Erratic": 10488,
+            "Fast": 18375,
+            "Medium Fast": 22969,
+            "Medium Slow": 25038,
+            "Slow": 28712,
+            "Fluctuating": 48083
+        }
+    },
+    {
+        "level": 88,
+        "total_experience": {
+            "Erratic": 467489,
+            "Fast": 545177,
+            "Medium Fast": 681472,
+            "Medium Slow": 710266,
+            "Slow": 851840,
+            "Fluctuating": 1035837
+        },
+        "to_next_level": {
+            "Erratic": 11889,
+            "Fast": 18798,
+            "Medium Fast": 23497,
+            "Medium Slow": 25641,
+            "Slow": 29371,
+            "Fluctuating": 35715
+        }
+    },
+    {
+        "level": 89,
+        "total_experience": {
+            "Erratic": 479378,
+            "Fast": 563975,
+            "Medium Fast": 704969,
+            "Medium Slow": 735907,
+            "Slow": 881211,
+            "Fluctuating": 1071552
+        },
+        "to_next_level": {
+            "Erratic": 11968,
+            "Fast": 19225,
+            "Medium Fast": 24031,
+            "Medium Slow": 26253,
+            "Slow": 30039,
+            "Fluctuating": 51108
+        }
+    },
+    {
+        "level": 90,
+        "total_experience": {
+            "Erratic": 491346,
+            "Fast": 583200,
+            "Medium Fast": 729000,
+            "Medium Slow": 762160,
+            "Slow": 911250,
+            "Fluctuating": 1122660
+        },
+        "to_next_level": {
+            "Erratic": 10532,
+            "Fast": 19656,
+            "Medium Fast": 24571,
+            "Medium Slow": 26870,
+            "Slow": 30713,
+            "Fluctuating": 37839
+        }
+    },
+    {
+        "level": 91,
+        "total_experience": {
+            "Erratic": 501878,
+            "Fast": 602856,
+            "Medium Fast": 753571,
+            "Medium Slow": 789030,
+            "Slow": 941963,
+            "Fluctuating": 1160499
+        },
+        "to_next_level": {
+            "Erratic": 12056,
+            "Fast": 20094,
+            "Medium Fast": 25117,
+            "Medium Slow": 27495,
+            "Slow": 31397,
+            "Fluctuating": 54254
+        }
+    },
+    {
+        "level": 92,
+        "total_experience": {
+            "Erratic": 513934,
+            "Fast": 622950,
+            "Medium Fast": 778688,
+            "Medium Slow": 816525,
+            "Slow": 973360,
+            "Fluctuating": 1214753
+        },
+        "to_next_level": {
+            "Erratic": 12115,
+            "Fast": 20535,
+            "Medium Fast": 25669,
+            "Medium Slow": 28128,
+            "Slow": 32086,
+            "Fluctuating": 40043
+        }
+    },
+    {
+        "level": 93,
+        "total_experience": {
+            "Erratic": 526049,
+            "Fast": 643485,
+            "Medium Fast": 804357,
+            "Medium Slow": 844653,
+            "Slow": 1005446,
+            "Fluctuating": 1254796
+        },
+        "to_next_level": {
+            "Erratic": 10508,
+            "Fast": 20982,
+            "Medium Fast": 26227,
+            "Medium Slow": 28767,
+            "Slow": 32784,
+            "Fluctuating": 57526
+        }
+    },
+    {
+        "level": 94,
+        "total_experience": {
+            "Erratic": 536557,
+            "Fast": 664467,
+            "Medium Fast": 830584,
+            "Medium Slow": 873420,
+            "Slow": 1038230,
+            "Fluctuating": 1312322
+        },
+        "to_next_level": {
+            "Erratic": 12163,
+            "Fast": 21433,
+            "Medium Fast": 26791,
+            "Medium Slow": 29415,
+            "Slow": 33488,
+            "Fluctuating": 42330
+        }
+    },
+    {
+        "level": 95,
+        "total_experience": {
+            "Erratic": 548720,
+            "Fast": 685900,
+            "Medium Fast": 857375,
+            "Medium Slow": 902835,
+            "Slow": 1071718,
+            "Fluctuating": 1354652
+        },
+        "to_next_level": {
+            "Erratic": 12202,
+            "Fast": 21888,
+            "Medium Fast": 27361,
+            "Medium Slow": 30068,
+            "Slow": 34202,
+            "Fluctuating": 60925
+        }
+    },
+    {
+        "level": 96,
+        "total_experience": {
+            "Erratic": 560922,
+            "Fast": 707788,
+            "Medium Fast": 884736,
+            "Medium Slow": 932903,
+            "Slow": 1105920,
+            "Fluctuating": 1415577
+        },
+        "to_next_level": {
+            "Erratic": 10411,
+            "Fast": 22350,
+            "Medium Fast": 27937,
+            "Medium Slow": 30729,
+            "Slow": 34921,
+            "Fluctuating": 44699
+        }
+    },
+    {
+        "level": 97,
+        "total_experience": {
+            "Erratic": 571333,
+            "Fast": 730138,
+            "Medium Fast": 912673,
+            "Medium Slow": 963632,
+            "Slow": 1140841,
+            "Fluctuating": 1460276
+        },
+        "to_next_level": {
+            "Erratic": 12206,
+            "Fast": 22815,
+            "Medium Fast": 28519,
+            "Medium Slow": 31398,
+            "Slow": 35649,
+            "Fluctuating": 64455
+        }
+    },
+    {
+        "level": 98,
+        "total_experience": {
+            "Erratic": 583539,
+            "Fast": 752953,
+            "Medium Fast": 941192,
+            "Medium Slow": 995030,
+            "Slow": 1176490,
+            "Fluctuating": 1524731
+        },
+        "to_next_level": {
+            "Erratic": 8343,
+            "Fast": 23286,
+            "Medium Fast": 29107,
+            "Medium Slow": 32073,
+            "Slow": 36383,
+            "Fluctuating": 47153
+        }
+    },
+    {
+        "level": 99,
+        "total_experience": {
+            "Erratic": 591882,
+            "Fast": 776239,
+            "Medium Fast": 970299,
+            "Medium Slow": 1027103,
+            "Slow": 1212873,
+            "Fluctuating": 1571884
+        },
+        "to_next_level": {
+            "Erratic": 8118,
+            "Fast": 23761,
+            "Medium Fast": 29701,
+            "Medium Slow": 32757,
+            "Slow": 37127,
+            "Fluctuating": 68116
+        }
+    },
+    {
+        "level": 100,
+        "total_experience": {
+            "Erratic": 600000,
+            "Fast": 800000,
+            "Medium Fast": 1000000,
+            "Medium Slow": 1059860,
+            "Slow": 1250000,
+            "Fluctuating": 1640000
+        },
+        "to_next_level": {
+            "Erratic": 0,
+            "Fast": 0,
+            "Medium Fast": 0,
+            "Medium Slow": 0,
+            "Slow": 0,
+            "Fluctuating": 0
+        }
+    }
+]
